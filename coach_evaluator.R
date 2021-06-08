@@ -9,7 +9,7 @@ pbp_data <- pbp_data %>%
         & !is.na(defense_conference)
     )
 
-coach_data <- read.csv("./coaches.csv")
+coach_data <- read.csv("./data/coaches.csv")
 coach_data$full_name <- paste(coach_data$first_name, coach_data$last_name)
 
 coach_data <- coach_data %>%
