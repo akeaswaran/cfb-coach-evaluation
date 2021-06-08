@@ -104,7 +104,7 @@ full_fd_data <- left_join(fd_data, coach_data, by=c("season" = "year", "pos_team
         & choice != ""
     )
 
-# strength > 1.5 && "Go"
+# "obvious go" -> strength > 1.5 && "Go" rec
 fd_decisions <- full_fd_data %>%
     filter(
         strength >= 0.015
