@@ -1,13 +1,13 @@
 library(cfbfastR)
 library(dplyr)
 
-future::plan("multisession")
-pbp_data <- load_cfb_pbp(range(2014,2020), qs = FALSE)
-pbp_data <- pbp_data %>%
-    filter(
-        !is.na(offense_conference)
-        & !is.na(defense_conference)
-    )
+years <- range(2014, 2020)
+
+pbp_data <- data.frame()
+progressr::with_progress({
+    future::plan("multisession")
+    pbp_data <- cfbfastR::load_cfb_pbp(years)
+})
 
 coach_data <- read.csv("./data/coaches.csv")
 coach_data$full_name <- paste(coach_data$first_name, coach_data$last_name)
