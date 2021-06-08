@@ -88,3 +88,42 @@ close_game_win_prob <- full_pbp %>%
     select(
         pos_team_coach, wins, games, pct
     )
+
+# fourth down data
+fd_data <- data.frame()
+for (yr in years) {
+    file_url <- paste0("https://github.com/Kazink36/cfb_fourth_down/raw/main/data/fd_pbp_",yr,".RDS")
+    tmp <- readRDS(gzcon(url(file_url)))
+    fd_data <- bind_rows(fd_data, tmp)
+}
+full_fd_data <- left_join(fd_data, coach_data, by=c("season" = "year", "pos_team" = "school", "week" = "week")) %>%
+    rename(pos_team_coach = full_name) %>%
+    filter(
+        !is.na(choice)
+        & choice != "Penalty"
+        & choice != ""
+    )
+
+# strength > 1.5 && "Go"
+fd_decisions <- full_fd_data %>%
+    filter(
+        strength >= 0.015
+        & recommendation == "Go for it"
+    ) %>%
+    group_by(pos_team_coach) %>%
+    count(choice) %>%
+    mutate(
+        pct = n / sum(n),
+        total = sum(n)
+    ) %>%
+    filter(
+        choice == "Go for it"
+    ) %>%
+    rename(
+        obvious_go = n,
+        opps = total
+    ) %>%
+    select(
+        pos_team_coach, obvious_go, opps, pct
+    )
+
