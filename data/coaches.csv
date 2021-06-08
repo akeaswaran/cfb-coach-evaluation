@@ -1,0 +1,948 @@
+﻿school,year,games,wins,losses,ties,preseason_rank,postseason_rank,srs,sp_overall,sp_offense,sp_defense,first_name,last_name
+Boston College,2014,13,7,6,0,,,6.2,4.9,28.7,23.7,Steve,Addazio
+Boston College,2015,12,3,9,0,,,-0.1,4.7,18,12.5,Steve,Addazio
+Boston College,2016,13,7,6,0,,,-2.4,-1.6,20.1,20.8,Steve,Addazio
+Boston College,2017,13,7,6,0,,,11.2,4.6,25.2,19.9,Steve,Addazio
+Boston College,2018,12,7,5,0,,,5.3,2.4,26.5,22.1,Steve,Addazio
+Boston College,2019,12,6,6,0,,,-2.9,-5.7,31.3,35.4,Steve,Addazio
+Colorado State,2020,4,1,3,0,,,-11.3,-6.5,24.2,30.5,Steve,Addazio
+Indiana,2016,1,0,1,0,,,1.0,4.6,25.1,19.4,Tom,Allen
+Indiana,2017,12,5,7,0,,,6.0,10.2,28.6,20.2,Tom,Allen
+Indiana,2018,12,5,7,0,,,1.5,1.6,30.2,29.1,Tom,Allen
+Indiana,2019,13,8,5,0,,,6.8,12.8,35.6,23.8,Tom,Allen
+Indiana,2020,8,6,2,0,,12,13.2,11.2,33.6,22.6,Tom,Allen
+Wisconsin,2014,1,1,0,0,14,13,15.3,20.8,38.7,18.1,Barry,Alvarez
+Wisconsin,2014,13,10,3,0,14,13,15.3,20.8,38.7,18.1,Gary,Andersen
+Oregon State,2015,12,2,10,0,,,-10.8,-10.1,25.9,35.3,Gary,Andersen
+Oregon State,2016,12,4,8,0,,,1.6,-4.6,26.1,30,Gary,Andersen
+Oregon State,2017,6,1,5,0,,,-16.5,-12.6,28.8,39.9,Gary,Andersen
+Utah State,2019,13,7,6,0,,,-5.3,-4.3,26.2,31,Gary,Andersen
+Utah State,2020,3,0,3,0,,,-19.2,-16.7,20.2,37,Gary,Andersen
+Arkansas State,2014,13,7,6,0,,,-4.9,-0.3,31.5,31.6,Blake,Anderson
+Arkansas State,2015,13,9,4,0,,,-3.2,0.5,30.9,28.4,Blake,Anderson
+Arkansas State,2016,13,8,5,0,,,-1.2,-1.2,21.9,21.1,Blake,Anderson
+Arkansas State,2017,12,7,5,0,,,-2.9,1.5,29.3,28.6,Blake,Anderson
+Arkansas State,2018,13,8,5,0,,,-2.8,1.2,29.9,27.9,Blake,Anderson
+Arkansas State,2019,13,8,5,0,,,-5.6,-2.9,30.1,34.2,Blake,Anderson
+Arkansas State,2020,11,4,7,0,,,-7.3,-6.5,31.1,37.2,Blake,Anderson
+Houston,2016,1,0,1,0,15,,5.4,10.1,30.8,21.7,Major,Applewhite
+Houston,2017,12,7,5,0,,,2.7,7.7,32.3,25.8,Major,Applewhite
+Houston,2018,13,8,5,0,,,-1.1,2.3,36.7,34.9,Major,Applewhite
+Baylor,2020,9,2,7,0,,,1.8,1.3,25.6,24.2,Dave,Aranda
+UNLV,2020,6,0,6,0,,,-19.2,-19.7,22,41.5,Marcus,Arroyo
+Akron,2019,12,0,12,0,,,-34.7,-29.8,7.7,35.3,Tom,Arth
+Akron,2020,6,1,5,0,,,,,,,Tom,Arth
+Rutgers,2016,12,2,10,0,,,-10.9,-14.9,17.3,29.9,Chris,Ash
+Rutgers,2017,12,4,8,0,,,-6.1,-5.5,23.3,29,Chris,Ash
+Rutgers,2018,12,1,11,0,,,-12.9,-12.3,15,28.5,Chris,Ash
+Rutgers,2019,4,1,3,0,,,-16.7,-14.6,17.4,31.8,Chris,Ash
+Bowling Green,2014,14,8,6,0,,,-13.4,-5.4,27.7,33.5,Dino,Babers
+Bowling Green,2015,13,10,3,0,,,8.5,7.5,39.4,32.1,Dino,Babers
+Syracuse,2016,12,4,8,0,,,-6.9,-2.7,29.2,31.2,Dino,Babers
+Syracuse,2017,12,4,8,0,,,1.0,4,29.3,27.3,Dino,Babers
+Syracuse,2018,13,10,3,0,,,12.1,7.5,32.1,27.4,Dino,Babers
+Syracuse,2019,12,5,7,0,22,,-6.5,-3,24.5,29.6,Dino,Babers
+Syracuse,2020,11,1,10,0,,,,,,,Dino,Babers
+Rice,2014,13,8,5,0,,,-3.4,-3.1,27.9,29.8,David,Bailiff
+Rice,2015,12,5,7,0,,,-18.0,-14.6,24,37.9,David,Bailiff
+Rice,2016,12,3,9,0,,,-20.6,-16.5,22.8,38.6,David,Bailiff
+Rice,2017,12,1,11,0,,,-24.4,-23.6,19.2,40.9,David,Bailiff
+Texas A&M,2017,1,0,1,0,,,5.4,9.4,33.1,25.2,Jeff,Banks
+Virginia Tech,2014,13,7,6,0,,,6.9,7.8,25.7,17.2,Frank,Beamer
+Virginia Tech,2015,13,7,6,0,,,6.9,11.4,30.8,19.7,Frank,Beamer
+Kansas,2015,12,0,12,0,,,-18.8,-21.3,20.2,40.6,David,Beaty
+Kansas,2016,12,2,10,0,,,-15.7,-15.9,21,36,David,Beaty
+Kansas,2017,12,1,11,0,,,-17.4,-14.8,21.6,36.7,David,Beaty
+Kansas,2018,12,3,9,0,,,-1.2,-10,21.9,31.9,David,Beaty
+Illinois,2014,13,6,7,0,,,-4.0,0.4,28.3,27.9,Tim,Beckman
+UMass,2019,12,1,11,0,,,-40.6,-34.6,15.3,49.3,Walt,Bell
+UMass,2020,4,0,4,0,,,-26.2,-31.3,16.7,47.8,Walt,Bell
+Louisiana Monroe,2014,12,4,8,0,,,-12.6,-10,18.4,28.8,Todd,Berry
+Louisiana Monroe,2015,12,2,11,0,,,-25.0,-14.7,18.4,32.9,Todd,Berry
+Arkansas,2014,13,7,6,0,,,20.4,12.2,32.4,19.4,Bret,Bielema
+Arkansas,2015,13,8,5,0,18,,15.1,19.2,46.6,28,Bret,Bielema
+Arkansas,2016,13,7,6,0,,,4.2,7.9,36.2,28.9,Bret,Bielema
+Arkansas,2017,12,4,8,0,,,-4.7,2.1,34.1,31.8,Bret,Bielema
+East Carolina,2018,1,0,1,0,,,-15.7,-14.9,18.3,34.2,David,Blackwell
+Troy,2014,12,3,9,0,,,-19.3,-15.9,22.4,37.5,Larry,Blakeney
+Tulsa,2014,12,2,10,0,,,-18.3,-15.8,23.6,37.7,Bill,Blankenship
+Rice,2018,13,2,11,0,,,-24.0,-26.4,15,42.5,Mike,Bloomgren
+Rice,2019,12,3,9,0,,,-13.5,-18,15.1,33.2,Mike,Bloomgren
+Rice,2020,5,2,3,0,,,-3.0,-9.2,17.3,26.5,Mike,Bloomgren
+Colorado State,2015,13,7,6,0,,,-8.5,0.5,29.4,30.2,Mike,Bobo
+Colorado State,2016,13,7,6,0,,,1.2,0.8,33.5,34,Mike,Bobo
+Colorado State,2017,13,7,6,0,,,-2.6,3.9,34.6,32.7,Mike,Bobo
+Colorado State,2018,12,3,9,0,,,-14.9,-10.3,27.6,36.7,Mike,Bobo
+Colorado State,2019,12,4,8,0,,,-9.9,-3.9,26.1,30.1,Mike,Bobo
+Wyoming,2014,12,4,8,0,,,-11.2,-14,20,34.1,Craig,Bohl
+Wyoming,2015,12,2,10,0,,,-18.9,-16.7,22.9,39.7,Craig,Bohl
+Wyoming,2016,14,8,6,0,,,-1.9,-6.9,30.4,37.5,Craig,Bohl
+Wyoming,2017,13,8,5,0,,,-2.3,-2.5,19.7,23.1,Craig,Bohl
+Wyoming,2018,12,6,6,0,,,-2.4,1.9,25.1,23.7,Craig,Bohl
+Wyoming,2019,13,8,5,0,,,2.5,-1.1,20.5,21.7,Craig,Bohl
+Wyoming,2020,6,2,4,0,,,-0.4,-2.5,22.4,24.9,Craig,Bohl
+Central Michigan,2015,13,7,6,0,,,-0.2,-3.1,26.4,27.2,John,Bonamego
+Central Michigan,2016,13,6,7,0,,,-9.1,-6.1,27.6,31.4,John,Bonamego
+Central Michigan,2017,13,8,5,0,,,-5.6,-8.6,21.4,28.2,John,Bonamego
+Central Michigan,2018,12,1,11,0,,,-18.9,-20,9,28.7,John,Bonamego
+Akron,2014,12,5,7,0,,,-14.0,-9.4,18.9,28.1,Terry,Bowden
+Akron,2015,13,8,5,0,,,-5.4,-0.8,24.8,25.9,Terry,Bowden
+Akron,2016,12,5,7,0,,,-11.6,-5.6,22.3,28.2,Terry,Bowden
+Akron,2017,14,7,7,0,,,-8.9,-17.6,24.1,39.6,Terry,Bowden
+Akron,2018,12,4,8,0,,,-14.5,-19.3,11.9,31,Terry,Bowden
+San José State,2017,13,2,11,0,,,-26.7,-20,15.2,37.5,Brent,Brennan
+San José State,2018,12,1,11,0,,,-14.1,-17.1,17.3,34.7,Brent,Brennan
+San José State,2019,12,5,7,0,,,-7.5,-7.2,29.6,36.7,Brent,Brennan
+San José State,2020,8,7,1,0,,24,8.6,0.1,30.4,30.4,Brent,Brennan
+Baylor,2014,13,11,2,0,10,7,21.1,23.9,43,19.5,Art,Briles
+Baylor,2015,13,10,3,0,4,13,17.8,19.5,45.1,24.1,Art,Briles
+Western Kentucky,2014,13,8,5,0,,,0.6,-2.6,40.1,41.6,Jeff,Brohm
+Western Kentucky,2015,14,12,2,0,,24,9.7,10.8,40.1,29.8,Jeff,Brohm
+Western Kentucky,2016,13,10,3,0,,,10.1,15.5,40.7,25.8,Jeff,Brohm
+Purdue,2017,13,7,6,0,,,10.8,5.8,28.6,22.1,Jeff,Brohm
+Purdue,2018,13,6,7,0,,,7.6,6.5,37.2,30.8,Jeff,Brohm
+Purdue,2019,12,4,8,0,,,-0.5,-0.7,30.8,31,Jeff,Brohm
+Purdue,2020,6,2,4,0,,,-0.4,5.9,32.6,26.8,Jeff,Brohm
+North Carolina,2019,13,7,6,0,,,7.7,10.3,35.1,24.6,Mack,Brown
+North Carolina,2020,12,8,4,0,18,18,,,,,Mack,Brown
+Troy,2015,12,4,8,0,,,-9.9,-7,24.5,31.9,Neal,Brown
+Troy,2016,13,10,3,0,,,1.6,1.1,25.7,25.1,Neal,Brown
+Troy,2017,13,11,2,0,,,1.2,1.6,27.5,23.5,Neal,Brown
+Troy,2018,13,10,3,0,,,-1.4,2.6,26.4,25.6,Neal,Brown
+West Virginia,2019,12,5,7,0,,,-1.7,-7,22.9,29.1,Neal,Brown
+West Virginia,2020,10,6,4,0,,,5.9,8.5,27.9,19.4,Neal,Brown
+Air Force,2014,13,10,3,0,,,-1.2,-1.4,26.2,29.5,Troy,Calhoun
+Air Force,2015,14,8,6,0,,,0.2,4.7,32.6,29.2,Troy,Calhoun
+Air Force,2016,13,10,3,0,,,1.2,4.4,33,29.9,Troy,Calhoun
+Air Force,2017,12,5,7,0,,,-7.8,-11,28.8,40.5,Troy,Calhoun
+Air Force,2018,12,5,7,0,,,-1.8,-1.8,29.2,31.2,Troy,Calhoun
+Air Force,2019,13,11,2,0,,22,10.2,12.1,36.2,25.8,Troy,Calhoun
+Air Force,2020,6,3,3,0,,,4.7,-5.6,24.1,29.8,Troy,Calhoun
+Rutgers,2019,8,1,7,0,,,-16.7,-14.6,17.4,31.8,Nunzio,Campanile
+Toledo,2014,13,9,4,0,,,-4.1,2.3,38,35.2,Matt,Campbell
+Toledo,2015,11,9,2,0,,,10.2,7.7,30.4,21.8,Matt,Campbell
+Iowa State,2016,12,3,9,0,,,-1.7,0.7,27,28.5,Matt,Campbell
+Iowa State,2017,13,8,5,0,,,14.3,7.5,38.2,30.7,Matt,Campbell
+Iowa State,2018,13,8,5,0,,,11.4,7.9,29.9,21.5,Matt,Campbell
+Iowa State,2019,13,7,6,0,21,,13.6,12.6,31.8,19.5,Matt,Campbell
+Iowa State,2020,12,9,3,0,23,9,14.2,13.3,34.5,21.1,Matt,Campbell
+South Alabama,2018,12,3,9,0,,,-22.1,-17.7,24.5,42,Steve,Campbell
+South Alabama,2019,12,2,10,0,,,-17.2,-20.3,16.3,34,Steve,Campbell
+South Alabama,2020,11,4,7,0,,,-8.5,-11.3,22.5,33.7,Steve,Campbell
+Maryland,2018,12,5,7,0,,,4.0,3,27.6,25.9,Matt,Canada
+Toledo,2015,1,1,0,0,,,10.2,7.7,30.4,21.8,Jason,Candle
+Toledo,2016,13,9,4,0,,,5.0,12.3,40.6,27.4,Jason,Candle
+Toledo,2017,14,11,3,0,,,3.8,6.6,32.2,25.7,Jason,Candle
+Toledo,2018,13,7,6,0,,,-1.6,2,35.2,34.4,Jason,Candle
+Toledo,2019,12,6,6,0,,,-16.2,-13.7,25.6,38.4,Jason,Candle
+Toledo,2020,6,4,2,0,,,,,,,Jason,Candle
+San José State,2014,12,3,9,0,,,-15.0,-11.5,22.1,30.5,Ron,Caragher
+San José State,2015,13,6,7,0,,,-6.9,-4.5,26.8,32,Ron,Caragher
+San José State,2016,12,4,8,0,,,-17.2,-13.6,22.4,36.7,Ron,Caragher
+Northern Illinois,2014,14,11,3,0,,,-4.8,-0.6,29.8,29.6,Rod,Carey
+Northern Illinois,2015,14,8,6,0,,,-0.1,-0.9,26.1,25.4,Rod,Carey
+Northern Illinois,2016,12,5,7,0,,,-3.2,-2.4,32,32.7,Rod,Carey
+Northern Illinois,2017,13,8,5,0,,,-0.1,-1.4,21,20.5,Rod,Carey
+Northern Illinois,2018,14,8,6,0,,,-4.5,-2.7,19.1,20.8,Rod,Carey
+Temple,2019,13,8,5,0,,,-2.7,3.2,24.6,20.8,Rod,Carey
+Temple,2020,7,1,6,0,,,,,,,Rod,Carey
+Coastal Carolina,2017,12,3,9,0,,,-17.4,,,,Jamey,Chadwell
+Coastal Carolina,2019,12,5,7,0,,,-11.1,-12.8,23.4,35.3,Jamey,Chadwell
+Coastal Carolina,2020,12,11,1,0,,14,13.9,6.6,33.7,27.3,Jamey,Chadwell
+Hawai'i,2014,13,4,9,0,,,-11.7,-15,15.7,30.6,Norm,Chow
+Hawai'i,2015,9,2,7,0,,,-21.7,-16.3,16.6,35.1,Norm,Chow
+Pittsburgh,2014,12,6,6,0,,,2.8,14.1,37.4,25.3,Paul,Chryst
+Wisconsin,2015,13,10,3,0,20,21,10.0,15.1,27,12.4,Paul,Chryst
+Wisconsin,2016,14,11,3,0,,9,17.9,16.1,30.5,14.8,Paul,Chryst
+Wisconsin,2017,14,13,1,0,9,7,24.7,26.8,37.4,11.6,Paul,Chryst
+Wisconsin,2018,13,8,5,0,4,,8.8,15.5,39.3,21.6,Paul,Chryst
+Wisconsin,2019,14,10,4,0,19,11,19.9,20.3,37.7,16.4,Paul,Chryst
+Wisconsin,2020,7,4,3,0,12,,9.5,26.5,38.7,12.2,Paul,Chryst
+Minnesota,2015,6,2,4,0,,,0.2,8.1,28.1,22.4,Tracy,Claeys
+Minnesota,2016,13,9,4,0,,,9.0,12.6,27.8,17.5,Tracy,Claeys
+UAB,2014,12,6,6,0,,,0.5,-4.2,26,32.8,Bill,Clark
+UAB,2017,13,8,5,0,,,-13.6,,,,Bill,Clark
+UAB,2018,14,11,3,0,,,0.6,-0.3,24.1,24.4,Bill,Clark
+UAB,2019,14,9,5,0,,,-7.9,-1.4,18.3,20.2,Bill,Clark
+UAB,2020,9,6,3,0,,,4.1,6.3,24.7,18.7,Bill,Clark
+Appalachian State,2019,1,1,0,0,,19,11.5,11.3,34.3,23.2,Shawn,Clark
+Appalachian State,2020,12,9,3,0,,,8.0,10.3,33,22.6,Shawn,Clark
+Wake Forest,2014,12,3,9,0,,,-10.8,-7.8,13.1,22.6,Dave,Clawson
+Wake Forest,2015,12,3,9,0,,,-3.5,-4.5,19.8,25.2,Dave,Clawson
+Wake Forest,2016,13,7,6,0,,,0.2,-0.6,21.5,22.9,Dave,Clawson
+Wake Forest,2017,13,8,5,0,,,13.8,10.5,35.7,25.1,Dave,Clawson
+Wake Forest,2018,13,7,6,0,,,0.8,3.6,31.2,28.1,Dave,Clawson
+Wake Forest,2019,13,8,5,0,,,0.6,2,29.4,28.6,Dave,Clawson
+Wake Forest,2020,9,4,5,0,,,,,,,Dave,Clawson
+UT San Antonio,2014,12,4,8,0,,,-12.8,-3.4,16.6,22.1,Larry,Coker
+UT San Antonio,2015,12,3,9,0,,,-18.9,-17.7,19.3,36.6,Larry,Coker
+Temple,2017,13,7,6,0,,,-1.6,0.5,25.1,24.1,Geoff,Collins
+Temple,2018,12,8,4,0,,,3.7,2.9,28.1,23.9,Geoff,Collins
+Georgia Tech,2019,12,3,9,0,,,-10.8,-12,18.8,28.9,Geoff,Collins
+Georgia Tech,2020,10,3,7,0,,,,,,,Geoff,Collins
+Eastern Michigan,2014,12,2,10,0,,,-27.1,-25.9,17.8,42.7,Chris,Creighton
+Eastern Michigan,2015,12,1,11,0,,,-22.5,-19.7,25.6,45.5,Chris,Creighton
+Eastern Michigan,2016,13,7,6,0,,,-8.7,-8.2,28.3,36.6,Chris,Creighton
+Eastern Michigan,2017,12,5,7,0,,,-4.2,-5.3,22,26.4,Chris,Creighton
+Eastern Michigan,2018,13,7,6,0,,,-3.4,-2,25.5,26.1,Chris,Creighton
+Eastern Michigan,2019,13,6,7,0,,,-9.3,-8.6,29.3,37.8,Chris,Creighton
+Eastern Michigan,2020,6,2,4,0,,,,,,,Chris,Creighton
+Oregon,2018,13,9,4,0,24,,5.2,7.3,34.7,25.8,Mario,Cristobal
+Oregon,2019,14,12,2,0,11,5,21.0,19,35.6,15.5,Mario,Cristobal
+Oregon,2020,7,4,3,0,9,,,,,,Mario,Cristobal
+Illinois,2015,12,5,7,0,,,-1.5,2.7,22.7,20.2,Bill,Cubit
+Duke,2014,13,9,4,0,,,7.7,7,29.6,25.1,David,Cutcliffe
+Duke,2015,13,8,5,0,,,3.0,3.4,27,21.5,David,Cutcliffe
+Duke,2016,12,4,8,0,,,-1.0,-2.8,26.8,27.6,David,Cutcliffe
+Duke,2017,13,7,6,0,,,8.3,6.1,25.5,19.2,David,Cutcliffe
+Duke,2018,13,8,5,0,,,6.4,5,30.5,25,David,Cutcliffe
+Duke,2019,12,5,7,0,,,-2.2,-1.8,19.7,23,David,Cutcliffe
+Duke,2020,11,2,9,0,,,,,,,David,Cutcliffe
+Michigan State,2014,13,11,2,0,8,5,20.0,24.1,42.5,17.9,Mark,Dantonio
+Michigan State,2015,14,12,2,0,5,6,14.0,15.6,35.7,20.6,Mark,Dantonio
+Michigan State,2016,12,3,9,0,12,,1.1,7.4,31,24.1,Mark,Dantonio
+Michigan State,2017,13,10,3,0,,15,12.8,13.8,27.7,15.1,Mark,Dantonio
+Michigan State,2018,13,7,6,0,11,,6.2,11.5,22,10.8,Mark,Dantonio
+Michigan State,2019,13,7,6,0,18,,5.1,7.2,24.4,16.1,Mark,Dantonio
+New Mexico,2014,12,4,8,0,,,-13.4,-15,28.4,42.4,Bob,Davie
+New Mexico,2015,13,7,6,0,,,-10.5,-8.7,24.9,34.8,Bob,Davie
+New Mexico,2016,13,9,4,0,,,-5.3,-5.1,32.2,38.6,Bob,Davie
+New Mexico,2017,12,3,9,0,,,-16.2,-12.4,20.8,34.2,Bob,Davie
+New Mexico,2018,12,3,9,0,,,-15.4,-9.5,23.8,35.7,Bob,Davie
+New Mexico,2019,12,2,10,0,,,-17.6,-17,20.6,39.2,Bob,Davie
+Florida International,2017,13,8,5,0,,,-10.9,-10.4,24,35,Butch,Davis
+Florida International,2018,13,9,4,0,,,-3.4,-7.4,26.7,34.7,Butch,Davis
+Florida International,2019,13,6,7,0,,,-11.5,-7,22,29.4,Butch,Davis
+Florida International,2020,5,0,5,0,,,-17.8,-10.7,21.6,32.4,Butch,Davis
+Ohio State,2018,3,3,0,0,5,,18.1,24.1,44.4,21.2,Ryan,Day
+Ohio State,2019,14,13,1,0,5,3,32.8,35.4,44.4,10.6,Ryan,Day
+Ohio State,2020,8,7,1,0,2,2,21.6,28.4,45.3,16.7,Ryan,Day
+Fresno State,2020,6,3,3,0,,,-6.7,-5.5,29.3,34.8,Kalen,DeBoer
+Fresno State,2014,14,6,8,0,,,-10.4,-6.9,24.5,31,Tim,DeRuyter
+Fresno State,2015,12,3,9,0,,,-17.9,-12.6,19.6,32.8,Tim,DeRuyter
+Fresno State,2016,8,1,7,0,,,-20.5,-16.9,16.4,33.9,Tim,DeRuyter
+Connecticut,2014,12,2,12,0,,,-20.4,-14.1,14.6,27.7,Bob,Diaco
+Connecticut,2015,13,6,7,0,,,-2.5,-6.3,18.1,23.9,Bob,Diaco
+Connecticut,2016,12,3,9,0,,,-17.5,-11.6,19.8,30.9,Bob,Diaco
+Miami,2019,13,6,7,0,,,1.1,9.6,26,15.6,Manny,Diaz
+Miami,2020,11,8,3,0,,22,,,,,Manny,Diaz
+UTEP,2018,12,1,11,0,,,-24.7,-26.6,12.1,37.1,Dana,Dimel
+UTEP,2019,12,1,11,0,,,-28.1,-25.6,18,43.5,Dana,Dimel
+UTEP,2020,8,3,5,0,,,-17.2,-18.6,17.9,36.2,Dana,Dimel
+NC State,2014,13,8,5,0,,,1.9,8.1,34.1,27.1,Dave,Doeren
+NC State,2015,13,7,6,0,,,6.7,9.6,36.2,24.7,Dave,Doeren
+NC State,2016,13,7,6,0,,,7.6,9.4,30.5,19.3,Dave,Doeren
+NC State,2017,13,9,4,0,,23,13.7,12.9,38,23.3,Dave,Doeren
+NC State,2018,13,9,4,0,,,7.9,9.4,35.1,26.7,Dave,Doeren
+NC State,2019,12,4,8,0,,,-12.0,-6.3,22,29.7,Dave,Doeren
+NC State,2020,12,8,4,0,,,,,,,Dave,Doeren
+Colorado,2020,6,4,2,0,,,,,,,Karl,Dorrell
+Appalachian State,2019,13,12,1,0,,19,11.5,11.3,34.3,23.2,Eli,Drinkwitz
+Missouri,2020,10,5,5,0,,,0.2,-1,23.4,24.6,Eli,Drinkwitz
+Florida,2014,1,1,0,0,,,9.6,17.3,29.8,14.1,D.J.,Durkin
+Maryland,2016,13,6,7,0,,,-0.8,-0.6,28.7,28.1,D.J.,Durkin
+Maryland,2017,12,4,8,0,,,-0.8,-4.5,26.7,28.3,D.J.,Durkin
+California,2014,12,5,7,0,,,2.5,-0.6,36.6,36.3,Sonny,Dykes
+California,2015,13,8,5,0,,,11.0,12.1,41.3,29.5,Sonny,Dykes
+California,2016,12,5,7,0,,,2.0,2.4,38.4,36.3,Sonny,Dykes
+SMU,2018,12,5,7,0,,,-9.4,-5.4,24,29.7,Sonny,Dykes
+SMU,2019,13,10,3,0,,,7.7,4.4,34.6,28.3,Sonny,Dykes
+SMU,2020,10,7,3,0,,,,,,,Sonny,Dykes
+Maryland,2014,13,7,6,0,,,0.9,5.7,30.4,26.1,Randy,Edsall
+Maryland,2015,6,2,4,0,,,-4.0,-1.6,26.1,26.5,Randy,Edsall
+Connecticut,2017,12,3,9,0,,,-13.5,-19.2,22.4,40.7,Randy,Edsall
+Connecticut,2018,12,1,11,0,,,-27.9,-26.4,24.7,51.9,Randy,Edsall
+Connecticut,2019,12,2,10,0,,,-23.2,-24.4,16.2,39.7,Randy,Edsall
+Connecticut,2020,0,0,0,0,,,,,,,Randy,Edsall
+Arizona State,2018,13,7,6,0,,,4.4,5,33.9,30.4,Herm,Edwards
+Arizona State,2019,13,8,5,0,,,5.7,6.3,28,23.7,Herm,Edwards
+Arizona State,2020,4,2,2,0,,,,,,,Herm,Edwards
+South Carolina,2015,6,1,5,0,,,1.4,3.4,31.3,28.6,Shawn,Elliott
+Georgia State,2017,12,7,5,0,,,-12.6,-14,17,28.6,Shawn,Elliott
+Georgia State,2018,12,2,10,0,,,-19.4,-20.4,23.6,43.6,Shawn,Elliott
+Georgia State,2019,13,7,6,0,,,-10.3,-10.5,29.4,38.4,Shawn,Elliott
+Georgia State,2020,10,6,4,0,,,1.9,-5.7,28.7,34.2,Shawn,Elliott
+Central Michigan,2014,13,7,6,0,,,-7.1,-5.2,26.1,30.2,Dan,Enos
+North Carolina,2014,13,6,7,0,23,,-2.3,0,35.8,35.1,Larry,Fedora
+North Carolina,2015,14,11,3,0,,15,19.2,20,43.3,25.3,Larry,Fedora
+North Carolina,2016,13,8,5,0,22,,10.2,15.9,38.5,24.6,Larry,Fedora
+North Carolina,2017,12,3,9,0,,,-2.3,4.3,29.3,25.9,Larry,Fedora
+North Carolina,2018,11,2,9,0,,,-6.5,-2.5,29.9,31.9,Larry,Fedora
+Iowa,2014,13,7,6,0,,,3.2,6.8,32.5,24.2,Kirk,Ferentz
+Iowa,2015,14,12,2,0,,9,11.1,9.3,30.1,21,Kirk,Ferentz
+Iowa,2016,13,8,5,0,17,,11.0,10.3,29,18.9,Kirk,Ferentz
+Iowa,2017,13,8,5,0,,,16.3,9.8,28.4,19.4,Kirk,Ferentz
+Iowa,2018,13,9,4,0,,,15.4,13.3,30.3,17.7,Kirk,Ferentz
+Iowa,2019,13,10,3,0,20,15,15.7,16.7,30,15.2,Kirk,Ferentz
+Iowa,2020,8,6,2,0,24,16,15.9,16.3,29.7,13.5,Kirk,Ferentz
+Cincinnati,2017,12,4,8,0,,,-12.6,-6.4,23.3,28.2,Luke,Fickell
+Cincinnati,2018,13,11,2,0,,,7.3,5.4,28.3,22.6,Luke,Fickell
+Cincinnati,2019,14,11,3,0,,21,8.9,9.1,29.1,21.1,Luke,Fickell
+Cincinnati,2020,10,9,1,0,20,8,,,,,Luke,Fickell
+UCLA,2017,2,1,1,0,,,0.8,4.9,39.3,34.5,Jedd,Fisch
+Florida State,2014,14,13,1,0,1,5,14.2,28.5,45,18.9,Jimbo,Fisher
+Florida State,2015,13,10,3,0,10,14,15.8,23.2,38,15,Jimbo,Fisher
+Florida State,2016,13,10,3,0,4,8,17.5,24,42.6,18.8,Jimbo,Fisher
+Florida State,2017,11,5,6,0,3,,10.1,22.8,33.3,12.5,Jimbo,Fisher
+Texas A&M,2018,13,9,4,0,,,17.9,21.6,40.3,19.8,Jimbo,Fisher
+Texas A&M,2019,13,8,5,0,12,,12.1,15,34,19.4,Jimbo,Fisher
+Texas A&M,2020,10,9,1,0,13,4,14.3,16.2,37.7,21.5,Jimbo,Fisher
+Northwestern,2014,12,5,7,0,,,-0.3,1.5,23.7,21.6,Pat,Fitzgerald
+Northwestern,2015,13,10,3,0,,23,3.0,0.2,16.8,15,Pat,Fitzgerald
+Northwestern,2016,13,7,6,0,,,9.9,2.9,27.9,23.5,Pat,Fitzgerald
+Northwestern,2017,13,10,3,0,,17,13.1,11.2,28.8,17.4,Pat,Fitzgerald
+Northwestern,2018,14,9,5,0,,,6.3,1.9,25.5,21.6,Pat,Fitzgerald
+Northwestern,2019,12,3,9,0,,,-3.2,-5.5,16.5,20,Pat,Fitzgerald
+Northwestern,2020,9,7,2,0,,10,12.2,9,24,15.2,Pat,Fitzgerald
+Western Michigan,2014,13,8,5,0,,,-3.0,-0.8,30.2,31.8,P.J.,Fleck
+Western Michigan,2015,13,8,5,0,,,4.3,4.9,36.7,32.2,P.J.,Fleck
+Western Michigan,2016,14,13,1,0,,15,13.5,11.5,40,28.9,P.J.,Fleck
+Minnesota,2017,12,5,7,0,,,2.8,0.4,23.9,22.1,P.J.,Fleck
+Minnesota,2018,13,7,6,0,,,5.5,6.3,28.2,22.8,P.J.,Fleck
+Minnesota,2019,13,11,2,0,,10,15.2,19.4,39.8,19.6,P.J.,Fleck
+Minnesota,2020,7,3,4,0,19,,0.1,4.7,35.8,30.7,P.J.,Fleck
+Rutgers,2014,13,8,5,0,,,0.4,-1.5,32,33.1,Kyle,Flood
+Rutgers,2015,12,4,8,0,,,-7.8,-10.1,29.3,37.1,Kyle,Flood
+Temple,2018,1,0,1,0,,,3.7,2.9,28.1,23.9,Ed,Foley
+Texas State,2014,12,7,5,0,,,-11.0,-7.4,27.9,35.3,Dennis,Franchione
+Texas State,2015,12,3,9,0,,,-22.8,-15.5,26.3,40.5,Dennis,Franchione
+Penn State,2014,13,7,6,0,,,1.8,9.2,20.6,11,James,Franklin
+Penn State,2015,13,7,6,0,,,4.3,11.3,28.4,19,James,Franklin
+Penn State,2016,14,11,3,0,,7,17.5,19,38,20.9,James,Franklin
+Penn State,2017,13,11,2,0,6,8,25.6,26,41.5,14.9,James,Franklin
+Penn State,2018,13,9,4,0,10,,14.9,19,33.9,14.6,James,Franklin
+Penn State,2019,13,11,2,0,15,9,20.0,24.3,37.5,15.7,James,Franklin
+Penn State,2020,9,4,5,0,7,,5.3,13.9,35,21,James,Franklin
+Utah State,2020,3,1,2,0,,,-19.2,-16.7,20.2,37,,Frank Maile
+Ole Miss,2014,13,9,4,0,18,17,21.3,20.7,35.4,14.4,Hugh,Freeze
+Ole Miss,2015,13,10,3,0,17,10,18.1,27,43.1,17.4,Hugh,Freeze
+Ole Miss,2016,12,5,7,0,11,,6.1,12.4,38.9,27.9,Hugh,Freeze
+Liberty,2019,13,8,5,0,,,-6.7,-2.6,29.3,32,Hugh,Freeze
+Liberty,2020,11,10,1,0,,17,1.7,6.5,34.2,27.6,Hugh,Freeze
+Georgia Southern,2014,12,9,3,0,,,-0.1,-2.4,32,33.4,Willie,Fritz
+Georgia Southern,2015,13,9,4,0,,,4.0,7.3,32.8,26.5,Willie,Fritz
+Tulane,2016,12,4,8,0,,,-10.3,-14.6,15.7,28.4,Willie,Fritz
+Tulane,2017,12,5,7,0,,,-3.6,-5.7,28.5,35,Willie,Fritz
+Tulane,2018,13,7,6,0,,,-5.4,-3.5,23.8,28.3,Willie,Fritz
+Tulane,2019,13,7,6,0,,,4.7,7.5,33.1,25.9,Willie,Fritz
+Tulane,2020,12,6,6,0,,,,,,,Willie,Fritz
+UCF,2016,13,6,7,0,,,-1.2,-2.2,19.3,23.3,Scott,Frost
+UCF,2017,13,13,0,0,,6,20.7,14.1,40.5,26.9,Scott,Frost
+Nebraska,2018,12,4,8,0,,,2.5,5.4,32.7,26.9,Scott,Frost
+Nebraska,2019,12,5,7,0,24,,3.2,2.6,32.2,27.4,Scott,Frost
+Nebraska,2020,8,3,5,0,,,0.5,7.7,33.7,25.9,Scott,Frost
+Memphis,2014,13,10,3,0,,25,7.3,5.6,26.5,22,Justin,Fuente
+Memphis,2015,12,9,3,0,,,9.3,8,35.1,30.4,Justin,Fuente
+Virginia Tech,2016,14,10,4,0,,16,15.0,15.2,34.5,19.6,Justin,Fuente
+Virginia Tech,2017,13,9,4,0,21,24,14.8,14.3,27.8,14.4,Justin,Fuente
+Virginia Tech,2018,13,6,7,0,20,,-2.6,3.9,32.8,29.4,Justin,Fuente
+Virginia Tech,2019,13,8,5,0,,,4.5,8,29.9,23.3,Justin,Fuente
+Virginia Tech,2020,11,5,6,0,,,,,,,Justin,Fuente
+Houston,2014,1,1,0,0,,,-2.3,5.4,30.4,23.6,David,Gibbs
+Liberty,2018,12,6,6,0,,,-10.3,-19.7,25.1,41.7,Turner,Gill
+Miami,2014,13,6,7,0,,,9.1,13.9,35,21.3,Al,Golden
+Miami,2015,7,4,3,0,,,5.1,11,34.9,25.8,Al,Golden
+New Mexico,2020,7,2,5,0,,,-11.1,-15,24.4,39.3,Danny,Gonzales
+Arizona State,2014,13,10,3,0,19,12,13.4,13.5,36.1,23.3,Todd,Graham
+Arizona State,2015,13,6,7,0,15,,6.9,10.2,34.9,27.2,Todd,Graham
+Arizona State,2016,12,5,7,0,,,-2.1,-3,32.2,37.6,Todd,Graham
+Arizona State,2017,13,7,6,0,,,2.6,1,33.9,33.1,Todd,Graham
+Hawai'i,2020,9,5,4,0,,,-3.3,-7.1,28.2,35.2,Todd,Graham
+Baylor,2016,13,7,6,0,23,,3.9,11.3,37,24.2,Jim,Grobe
+Oklahoma State,2014,13,7,6,0,,,2.6,8.6,32,24,Mike,Gundy
+Oklahoma State,2015,13,10,3,0,,20,10.0,9.9,37.7,28.8,Mike,Gundy
+Oklahoma State,2016,13,10,3,0,21,11,12.4,16.4,42.4,27,Mike,Gundy
+Oklahoma State,2017,13,10,3,0,10,14,18.4,19.1,42.2,23,Mike,Gundy
+Oklahoma State,2018,13,7,6,0,,,9.6,13.8,42,28.9,Mike,Gundy
+Oklahoma State,2019,13,8,5,0,,,10.8,8.7,35,26.2,Mike,Gundy
+Oklahoma State,2020,11,8,3,0,15,20,9.6,14.2,30.7,16.7,Mike,Gundy
+Boston College,2020,11,6,5,0,,,,,,,Jeff,Hafley
+Florida State,2017,2,2,0,0,3,,10.1,22.8,33.3,12.5,Odell,Haggins
+Florida State,2019,4,2,2,0,,,0.2,1.8,30.2,27.1,Odell,Haggins
+Oregon State,2017,6,0,6,0,,,-16.5,-12.6,28.8,39.9,Cory,Hall
+Northern Illinois,2019,12,5,7,0,,,-14.5,-13.9,20.7,34.2,Thomas,Hammock
+Northern Illinois,2020,6,0,6,0,,,,,,,Thomas,Hammock
+Michigan,2015,13,10,3,0,,12,17.5,19.7,35.2,16.2,Jim,Harbaugh
+Michigan,2016,13,10,3,0,7,10,24.1,24.4,34.8,11.1,Jim,Harbaugh
+Michigan,2017,13,8,5,0,11,,12.9,19.6,31.1,11.8,Jim,Harbaugh
+Michigan,2018,13,10,3,0,14,,19.0,22,35.5,14.3,Jim,Harbaugh
+Michigan,2019,13,9,4,0,7,18,18.1,20.7,35.7,16,Jim,Harbaugh
+Michigan,2020,6,2,4,0,16,,-0.6,10.7,33,22.2,Jim,Harbaugh
+Boise State,2014,14,12,2,0,,16,10.0,11.6,36.6,24.7,Bryan,Harsin
+Boise State,2015,13,9,4,0,23,,8.1,11.8,32.2,20.2,Bryan,Harsin
+Boise State,2016,13,10,3,0,,,6.9,11.5,36.7,25,Bryan,Harsin
+Boise State,2017,14,11,3,0,,22,7.7,9.1,28.6,20.5,Bryan,Harsin
+Boise State,2018,13,10,3,0,22,,9.3,12.2,37.1,22.8,Bryan,Harsin
+Boise State,2019,14,12,2,0,,23,8.9,8.1,32.9,25,Bryan,Harsin
+Boise State,2020,7,5,2,0,,,7.7,6.7,33.1,26.4,Bryan,Harsin
+UNLV,2014,13,2,11,0,,,-21.1,-17.6,22,39.1,Bobby,Hauck
+Kent State,2014,11,2,9,0,,,-17.7,-13.7,16.7,29.5,Paul,Haynes
+Kent State,2015,12,3,9,0,,,-17.9,-11.9,10.6,21.3,Paul,Haynes
+Kent State,2016,12,3,9,0,,,-10.5,-12,16.6,27.4,Paul,Haynes
+Kent State,2017,12,2,10,0,,,-22.7,-20.2,14.3,32.4,Paul,Haynes
+Purdue,2014,12,3,9,0,,,-6.7,-6.2,22.7,30.2,Darrell,Hazell
+Purdue,2015,12,2,10,0,,,-9.2,-7.4,26.6,33.5,Darrell,Hazell
+Purdue,2016,6,3,3,0,,,-12.7,-11,25.1,35.6,Darrell,Hazell
+Charlotte,2019,13,7,6,0,,,-10.3,-6.3,29.9,35.1,Will,Healy
+Charlotte,2020,6,2,4,0,,,-14.8,-6.6,29.4,35.8,Will,Healy
+Oregon,2014,15,13,2,0,3,2,27.1,24.7,48.1,23.2,Mark,Helfrich
+Oregon,2015,13,9,4,0,7,19,12.3,15.9,46.7,30.4,Mark,Helfrich
+Oregon,2016,12,4,8,0,24,,2.2,6.1,42.5,36.1,Mark,Helfrich
+USC,2015,9,5,4,0,8,,13.6,16.8,38.6,23.3,Clay,Helton
+USC,2016,13,10,3,0,20,3,19.4,23.6,39.2,17.1,Clay,Helton
+USC,2017,14,11,3,0,4,12,11.9,17.9,38.5,20,Clay,Helton
+USC,2018,12,5,7,0,15,,1.3,9.7,31.7,22.5,Clay,Helton
+USC,2019,13,8,5,0,,,9.5,13.1,39,26.7,Clay,Helton
+USC,2020,6,5,1,0,17,21,,,,,Clay,Helton
+Western Kentucky,2019,13,9,4,0,,,0.0,1.7,23.6,21.1,Tyson,Helton
+Western Kentucky,2020,12,5,7,0,,,-10.2,-3.2,18.9,22.3,Tyson,Helton
+Houston,2015,14,13,1,0,,8,14.3,6.2,33.6,28.4,Tom,Herman
+Houston,2016,12,9,3,0,15,,5.4,10.1,30.8,21.7,Tom,Herman
+Texas,2017,13,7,6,0,23,,11.1,10.6,26.7,16.3,Tom,Herman
+Texas,2018,14,10,4,0,23,,12.1,11.3,35.3,24.4,Tom,Herman
+Texas,2019,13,8,5,0,10,25,16.0,12,38.7,28.5,Tom,Herman
+Texas,2020,10,7,3,0,14,19,13.3,9.7,34.8,25.2,Tom,Herman
+UCF,2018,13,12,1,0,21,,14.9,16.5,39.9,25.2,Josh,Heupel
+UCF,2019,13,10,3,0,17,24,13.3,19.1,37.3,18.1,Josh,Heupel
+UCF,2020,10,6,4,0,21,,,,,,Josh,Heupel
+Michigan,2014,12,5,7,0,,,1.6,8.2,27,19,Brady,Hoke
+Tennessee,2017,2,0,2,0,25,,-7.3,1.2,25.8,25.7,Brady,Hoke
+San Diego State,2020,8,4,4,0,,,2.8,5.3,20.2,15,Brady,Hoke
+West Virginia,2014,13,7,6,0,,,11.5,8.4,31.3,24.3,Dana,Holgorsen
+West Virginia,2015,13,8,5,0,,,11.0,12.9,34.4,19.9,Dana,Holgorsen
+West Virginia,2016,13,10,3,0,,18,10.4,11.3,35.7,22.8,Dana,Holgorsen
+West Virginia,2017,13,7,6,0,22,,6.5,5.6,33.6,27.2,Dana,Holgorsen
+West Virginia,2018,12,8,4,0,17,,17.9,13.2,41.1,29.2,Dana,Holgorsen
+Houston,2019,12,4,8,0,,,-0.1,-4.3,29.6,35.4,Dana,Holgorsen
+Houston,2020,8,3,5,0,,,,,,,Dana,Holgorsen
+Marshall,2014,14,13,1,0,,23,14.6,16.8,38.4,23.1,Doc,Holliday
+Marshall,2015,13,10,3,0,,,-0.2,3.5,25.4,20.3,Doc,Holliday
+Marshall,2016,12,3,9,0,,,-20.0,-12.7,24.6,35.8,Doc,Holliday
+Marshall,2017,13,8,5,0,,,-2.7,-4.5,19.4,23.9,Doc,Holliday
+Marshall,2018,13,9,4,0,,,-1.6,1,22,20.5,Doc,Holliday
+Marshall,2019,13,8,5,0,,,-4.7,-1.9,23.8,26.6,Doc,Holliday
+Marshall,2020,10,7,3,0,,,3.9,9.5,28.6,19,Doc,Holliday
+Louisiana Tech,2014,14,9,5,0,,,10.6,-1.7,27,27.5,Skip,Holtz
+Louisiana Tech,2015,13,9,4,0,,,-0.3,8.3,35.6,27.4,Skip,Holtz
+Louisiana Tech,2016,14,9,5,0,,,1.5,3.1,39.8,36.9,Skip,Holtz
+Louisiana Tech,2017,13,7,6,0,,,-5.3,-5.5,26.8,32.7,Skip,Holtz
+Louisiana Tech,2018,13,8,5,0,,,-7.9,-6.9,22,27,Skip,Holtz
+Louisiana Tech,2019,13,10,3,0,,,-2.6,0.2,25.3,25,Skip,Holtz
+Louisiana Tech,2020,10,5,5,0,,,-11.5,-7,24.4,31.4,Skip,Holtz
+Southern Mississippi,2016,13,7,6,0,,,-8.8,0.7,29.1,29.6,Jay,Hopson
+Southern Mississippi,2017,13,8,5,0,,,-9.7,-3.4,24.9,28.3,Jay,Hopson
+Southern Mississippi,2018,11,6,5,0,,,-6.8,-5,16.6,21.4,Jay,Hopson
+Southern Mississippi,2019,13,7,6,0,,,-4.9,-4.8,23.6,27.7,Jay,Hopson
+Southern Mississippi,2020,1,0,1,0,,,-15.0,-7.9,24.2,32.1,Jay,Hopson
+East Carolina,2019,12,4,8,0,,,-15.2,-14,24,38.1,Mike,Houston
+East Carolina,2020,9,3,6,0,,,,,,,Mike,Houston
+Louisiana,2014,13,9,4,0,,,-5.7,2.2,30,29.3,Mark,Hudspeth
+Louisiana,2015,12,4,8,0,,,-18.9,-7.1,24.2,32.1,Mark,Hudspeth
+Louisiana,2016,13,6,7,0,,,-9.8,-8.7,19.8,29.4,Mark,Hudspeth
+Louisiana,2017,12,5,7,0,,,-20.0,-15.8,27.5,42.9,Mark,Hudspeth
+Appalachian State,2018,1,1,0,0,,,10.7,11.9,30,19,Mark,Ivey
+Bowling Green,2016,12,4,8,0,,,-12.7,-6.6,25,31.8,Mike,Jinks
+Bowling Green,2017,12,2,10,0,,,-14.3,-10,27.5,38.9,Mike,Jinks
+Bowling Green,2018,7,1,6,0,,,-21.0,-22,24.7,43.9,Mike,Jinks
+Tulane,2014,12,3,9,0,,,-15.5,-15,16.2,28,Curtis,Johnson
+Tulane,2015,12,3,9,0,,,-18.9,-14,20.3,32.5,Curtis,Johnson
+Georgia Tech,2014,14,11,3,0,,8,18.5,11.2,44.1,32,Paul,Johnson
+Georgia Tech,2015,12,3,9,0,16,,4.6,9,33.1,25.4,Paul,Johnson
+Georgia Tech,2016,13,9,4,0,,,7.3,7.8,35,28.5,Paul,Johnson
+Georgia Tech,2017,11,5,6,0,,,8.7,8.9,34.9,25.1,Paul,Johnson
+Georgia Tech,2018,13,7,6,0,,,3.4,0.3,33,33.9,Paul,Johnson
+Tennessee,2014,13,7,6,0,,,10.9,12.2,31,19.9,Butch,Jones
+Tennessee,2015,13,9,4,0,25,22,17.7,19.5,35.7,17.8,Butch,Jones
+Tennessee,2016,13,9,4,0,9,22,10.4,16.3,39.9,25.2,Butch,Jones
+Tennessee,2017,10,4,6,0,25,,-7.3,1.2,25.8,25.7,Butch,Jones
+South Alabama,2014,13,6,7,0,,,-11.7,-4.3,23.4,28.3,Joey,Jones
+South Alabama,2015,12,5,7,0,,,-17.6,-10.4,24.3,33.4,Joey,Jones
+South Alabama,2016,13,6,7,0,,,-10.0,-9.4,25.2,33.3,Joey,Jones
+South Alabama,2017,12,4,8,0,,,-16.3,-12,18.3,31.4,Joey,Jones
+SMU,2014,2,0,2,0,,,-24.6,-21.2,16.6,34.9,June,Jones
+Arkansas,2019,2,0,2,0,,,-7.6,-10.6,21.7,32.3,Barry Lunney,Jr.
+Notre Dame,2014,13,8,5,0,17,,8.4,10.8,37.5,26,Brian,Kelly
+Notre Dame,2015,13,10,3,0,11,11,17.5,22.4,44.1,21.2,Brian,Kelly
+Notre Dame,2016,12,4,8,0,10,,6.4,15.7,39.4,23.2,Brian,Kelly
+Notre Dame,2017,13,10,3,0,,11,22.0,20.8,37.4,16.9,Brian,Kelly
+Notre Dame,2018,13,12,1,0,12,,17.7,20.7,34.6,14.5,Brian,Kelly
+Notre Dame,2019,13,11,2,0,9,12,18.8,17.7,35.8,18.5,Brian,Kelly
+Notre Dame,2020,12,10,2,0,10,5,,,,,Brian,Kelly
+UCLA,2018,12,3,9,0,,,-4.0,-0.4,30.7,32.4,Chip,Kelly
+UCLA,2019,12,4,8,0,,,-1.5,-3.9,28.4,32.5,Chip,Kelly
+UCLA,2020,7,3,4,0,,,,,,,Chip,Kelly
+Auburn,2020,1,0,1,0,11,,7.9,12.6,33,20.7,,Kevin Steele
+Fresno State,2016,4,0,4,0,,,-20.5,-16.9,16.4,33.9,Eric,Kiesau
+Florida Atlantic,2017,14,11,3,0,,,9.5,5.1,34.7,31.3,Lane,Kiffin
+Florida Atlantic,2018,12,5,7,0,,,-4.0,-0.8,30.8,29.9,Lane,Kiffin
+Florida Atlantic,2019,14,11,3,0,,,8.1,-0.6,28.6,29.5,Lane,Kiffin
+Ole Miss,2020,10,5,5,0,,,6.1,4.8,38.1,33.2,Lane,Kiffin
+Minnesota,2014,13,8,5,0,,,8.0,6.8,29.7,24.3,Jerry,Kill
+Minnesota,2015,7,4,3,0,,,0.2,8.1,28.1,22.4,Jerry,Kill
+Texas Tech,2014,12,4,8,0,,,-1.3,4.9,39.9,35.3,Kliff,Kingsbury
+Texas Tech,2015,13,7,6,0,,,5.2,4.5,44.8,40.3,Kliff,Kingsbury
+Texas Tech,2016,12,5,7,0,,,1.0,3.7,40.6,36.9,Kliff,Kingsbury
+Texas Tech,2017,13,6,7,0,,,4.8,4.8,34.4,28.3,Kliff,Kingsbury
+Texas Tech,2018,12,5,7,0,,,7.3,8.7,36.2,29.8,Kliff,Kingsbury
+Kansas State,2019,13,8,5,0,,,10.4,6,28.8,24.8,Chris,Klieman
+Kansas State,2020,10,4,6,0,,,1.0,2,26.7,24.7,Chris,Klieman
+Mississippi State,2017,1,1,0,0,,19,14.1,16,32.4,18.1,Greg,Knox
+UTEP,2014,13,7,6,0,,,-5.9,-12,23.5,35.4,Sean,Kugler
+UTEP,2015,12,5,7,0,,,-22.4,-19.5,18.7,37.8,Sean,Kugler
+UTEP,2016,12,4,8,0,,,-21.3,-16.1,25,40.6,Sean,Kugler
+UTEP,2017,5,0,5,0,,,-28.9,-27.4,12.8,38.7,Sean,Kugler
+Washington,2020,4,3,1,0,,,,,,,Jimmy,Lake
+Charlotte,2015,12,2,10,0,,,-27.9,-21.7,11.9,31.9,Brad,Lambert
+Charlotte,2016,12,4,8,0,,,-19.6,-20.9,17.6,36.9,Brad,Lambert
+Charlotte,2017,12,1,11,0,,,-25.4,-26.1,13.7,37.7,Brad,Lambert
+Charlotte,2018,12,5,7,0,,,-12.2,-18.5,15,33.5,Brad,Lambert
+Georgia State,2016,2,1,1,0,,,-14.6,-12.1,17.3,26.7,Tim,Lappano
+Washington State,2014,12,3,9,0,,,-1.9,-1.7,33,32.8,Mike,Leach
+Washington State,2015,13,9,4,0,,,8.0,4.2,35.8,29.4,Mike,Leach
+Washington State,2016,13,8,5,0,,,15.5,6.2,36.2,27.8,Mike,Leach
+Washington State,2017,13,9,4,0,24,,6.6,8.6,30.9,22.1,Mike,Leach
+Washington State,2018,13,11,2,0,,,12.9,11.3,38.8,27.3,Mike,Leach
+Washington State,2019,13,6,7,0,23,,6.7,11.1,41.7,33.1,Mike,Leach
+Mississippi State,2020,11,4,7,0,,,1.6,-1.4,25.4,26.9,Mike,Leach
+Buffalo,2015,12,5,7,0,,,-10.8,-10.3,24.1,32.2,Lance,Leipold
+Buffalo,2016,12,2,10,0,,,-22.8,-18.8,16.8,33.5,Lance,Leipold
+Buffalo,2017,12,6,6,0,,,-4.3,-11.2,24.9,33.9,Lance,Leipold
+Buffalo,2018,14,10,4,0,,,0.5,-1.1,31.3,29.9,Lance,Leipold
+Buffalo,2019,13,8,5,0,,,-1.0,-2,25,24.6,Lance,Leipold
+Buffalo,2020,7,6,1,0,,25,,,,,Lance,Leipold
+Ball State,2014,12,5,7,0,,,-10.4,-6.6,25.6,33.9,Pete,Lembo
+Ball State,2015,12,3,9,0,,,-14.9,-15.5,21.9,37.3,Pete,Lembo
+Western Michigan,2017,12,6,6,0,,,-4.4,-2.4,25.7,28.4,Tim,Lester
+Western Michigan,2018,13,7,6,0,,,-10.3,-10.7,29.8,37.4,Tim,Lester
+Western Michigan,2019,13,7,6,0,,,-4.5,-4.9,29.6,32.5,Tim,Lester
+Western Michigan,2020,6,4,2,0,,,,,,,Tim,Lester
+Houston,2014,12,7,5,0,,,-2.3,5.4,30.4,23.6,Tony,Levine
+Kent State,2018,12,2,10,0,,,-19.4,-20.4,20.5,40.3,Sean,Lewis
+Kent State,2019,13,7,6,0,,,-7.2,-10.2,25.9,37.9,Sean,Lewis
+Kent State,2020,4,3,1,0,,,,,,,Sean,Lewis
+Troy,2019,12,5,7,0,,,-9.6,-4.4,32.2,35.4,Chip,Lindsey
+Troy,2020,11,5,6,0,,,4.0,2.3,28.4,25.8,Chip,Lindsey
+North Texas,2016,13,5,8,0,,,-16.5,-14.6,22,37.5,Seth,Littrell
+North Texas,2017,14,9,5,0,,,-8.2,-4.5,28.6,34.3,Seth,Littrell
+North Texas,2018,13,9,4,0,,,-2.3,2.1,29.2,29.5,Seth,Littrell
+North Texas,2019,12,4,8,0,,,-11.8,-6.1,25,32.6,Seth,Littrell
+North Texas,2020,10,4,6,0,,,-19.8,-8,28.9,36.7,Seth,Littrell
+Maryland,2019,12,3,9,0,,,-5.6,-6.3,26.3,30.3,Mike,Locksley
+Maryland,2020,5,2,3,0,,,-0.4,-0.1,27.8,28,Mike,Locksley
+Bowling Green,2019,12,3,9,0,,,-28.5,-27.5,14.9,39.5,Scot,Loeffler
+Bowling Green,2020,5,0,5,0,,,,,,,Scot,Loeffler
+Virginia,2014,12,5,7,0,,,5.1,4,23.5,20.4,Mike,London
+Virginia,2015,12,4,8,0,,,1.3,1.4,33,30.8,Mike,London
+San Diego State,2014,13,7,6,0,,,-4.5,1,25.1,24.6,Rocky,Long
+San Diego State,2015,14,11,3,0,,,6.2,8,28.6,22.6,Rocky,Long
+San Diego State,2016,14,11,3,0,,25,5.4,11.4,32,22.5,Rocky,Long
+San Diego State,2017,13,10,3,0,,,3.1,4.5,28.5,24.8,Rocky,Long
+San Diego State,2018,13,7,6,0,,,-4.8,6,25.6,21,Rocky,Long
+San Diego State,2019,13,10,3,0,,,1.7,2,16.6,16.6,Rocky,Long
+Ole Miss,2017,12,6,6,0,,,1.6,11.6,38.9,28.8,Matt,Luke
+Ole Miss,2018,12,5,7,0,,,3.5,9.8,42.1,31.2,Matt,Luke
+Ole Miss,2019,12,4,8,0,,,6.5,2.9,28.6,23.8,Matt,Luke
+Georgia Southern,2017,6,2,4,0,,,-17.4,-15.8,18.3,35.5,Chad,Lunsford
+Georgia Southern,2018,13,10,3,0,,,-0.4,-2.4,27.9,31.6,Chad,Lunsford
+Georgia Southern,2019,13,7,6,0,,,-1.0,-4.5,22.2,27.4,Chad,Lunsford
+Georgia Southern,2020,13,8,5,0,,,1.2,0.2,27.4,27.1,Chad,Lunsford
+Colorado,2014,12,2,10,0,,,-4.1,-5,32.5,38.9,Mike,MacIntyre
+Colorado,2015,13,4,9,0,,,-4.6,-4,25.8,28.5,Mike,MacIntyre
+Colorado,2016,14,10,4,0,,17,15.3,6.3,29.3,21.7,Mike,MacIntyre
+Colorado,2017,12,5,7,0,,,-2.8,2,30.3,30.1,Mike,MacIntyre
+Colorado,2018,11,5,6,0,,,-2.4,-0.7,27,27.2,Mike,MacIntyre
+Utah State,2018,1,1,0,0,,,13.9,14.2,36.3,22.5,Frank,Maile
+Auburn,2014,13,8,5,0,6,22,21.1,24.2,45.2,22.1,Gus,Malzahn
+Auburn,2015,13,7,6,0,6,,9.1,14.6,36.1,23.1,Gus,Malzahn
+Auburn,2016,13,8,5,0,,24,16.8,15.3,32.1,18.4,Gus,Malzahn
+Auburn,2017,14,10,4,0,12,10,23.6,24.7,35.4,11,Gus,Malzahn
+Auburn,2018,13,8,5,0,9,,15.0,23.6,36.9,14.1,Gus,Malzahn
+Auburn,2019,13,9,4,0,16,14,22.1,21,33.9,14.9,Gus,Malzahn
+Auburn,2020,10,6,4,0,11,,7.9,12.6,33,20.7,Gus,Malzahn
+Miami (OH),2014,12,2,10,0,,,-16.1,-18.7,21.5,37.9,Chuck,Martin
+Miami (OH),2015,12,3,9,0,,,-19.3,-13.5,16.8,29.5,Chuck,Martin
+Miami (OH),2016,13,6,7,0,,,-7.1,-6.1,23.8,29,Chuck,Martin
+Miami (OH),2017,12,5,7,0,,,-8.4,-2.2,24.2,26.9,Chuck,Martin
+Miami (OH),2018,12,6,6,0,,,-2.2,-0.7,26.2,28.4,Chuck,Martin
+Miami (OH),2019,14,8,6,0,,,-7.0,-9.2,19.8,30,Chuck,Martin
+Miami (OH),2020,3,2,1,0,,,,,,,Chuck,Martin
+New Mexico State,2014,12,2,10,0,,,-25.5,-23.3,23,43.3,Doug,Martin
+New Mexico State,2015,12,3,9,0,,,-22.3,-18.6,24.5,42.2,Doug,Martin
+New Mexico State,2016,12,3,9,0,,,-18.6,-17.2,23.2,39.5,Doug,Martin
+New Mexico State,2017,13,7,6,0,,,-11.2,-9.4,24.5,32.6,Doug,Martin
+New Mexico State,2018,12,3,9,0,,,-21.7,-20.2,19.2,38,Doug,Martin
+New Mexico State,2019,12,2,10,0,,,-20.0,-22,19,40.3,Doug,Martin
+New Mexico State,2020,2,1,1,0,,,,,,,Doug,Martin
+Vanderbilt,2014,12,3,9,0,,,-9.6,-4.3,22,25.3,Derek,Mason
+Vanderbilt,2015,12,4,8,0,,,-1.9,-1.6,17.8,19.3,Derek,Mason
+Vanderbilt,2016,13,6,7,0,,,2.6,-1.2,25.3,26.3,Derek,Mason
+Vanderbilt,2017,12,5,7,0,,,-5.1,0.6,32.3,29,Derek,Mason
+Vanderbilt,2018,13,6,7,0,,,9.9,7.6,35.6,27.1,Derek,Mason
+Vanderbilt,2019,12,3,9,0,,,-12.6,-10.4,21.8,33.6,Derek,Mason
+Vanderbilt,2020,8,0,8,0,,,-14.4,-16.8,17.7,34.1,Derek,Mason
+North Texas,2014,12,4,8,0,,,-15.8,-9.4,20.2,31.2,Dan,McCarney
+North Texas,2015,5,0,5,0,,,-24.4,-25,13.3,39.2,Dan,McCarney
+Colorado State,2014,12,10,2,0,,,3.1,4.5,33.2,29.2,Jim,McElwain
+Florida,2015,14,10,4,0,,25,9.7,13.8,26.7,15.8,Jim,McElwain
+Florida,2016,13,9,4,0,25,14,12.4,15.4,26.6,14,Jim,McElwain
+Florida,2017,7,3,4,0,17,,-0.9,10.1,30.8,22.4,Jim,McElwain
+Central Michigan,2019,14,8,6,0,,,-6.3,-4.4,26,29,Jim,McElwain
+Central Michigan,2020,6,3,3,0,,,,,,,Jim,McElwain
+East Carolina,2014,13,8,5,0,,,1.0,8.5,34.7,24.6,Ruffin,McNeill
+East Carolina,2015,12,5,7,0,,,1.8,-0.5,28.6,27.9,Ruffin,McNeill
+BYU,2014,13,8,5,0,,,3.4,10.2,33.1,24.1,Bronco,Mendenhall
+BYU,2015,13,9,4,0,,,8.4,8.7,31.9,24.6,Bronco,Mendenhall
+Virginia,2016,12,2,10,0,,,-5.4,-3.8,25.4,28.5,Bronco,Mendenhall
+Virginia,2017,13,6,7,0,,,-0.8,0.8,25,23.3,Bronco,Mendenhall
+Virginia,2018,13,8,5,0,,,7.6,7.1,29.7,22,Bronco,Mendenhall
+Virginia,2019,14,9,5,0,,,6.3,6.3,30.4,25.2,Bronco,Mendenhall
+Virginia,2020,10,5,5,0,,,,,,,Bronco,Mendenhall
+Ohio State,2014,15,14,1,0,5,1,23.9,25.8,45.6,20.1,Urban,Meyer
+Ohio State,2015,13,12,1,0,1,4,21.9,29.5,41.3,13.5,Urban,Meyer
+Ohio State,2016,13,11,2,0,6,6,23.3,22.4,35.6,15,Urban,Meyer
+Ohio State,2017,14,12,2,0,2,5,25.6,30.9,42.9,12.8,Urban,Meyer
+Ohio State,2018,11,10,1,0,5,,18.1,24.1,44.4,21.2,Urban,Meyer
+South Carolina,2020,3,0,3,0,,,-5.4,-2.4,27.5,29.7,,Mike Bobo
+LSU,2014,13,8,5,0,13,,13.9,21.5,34.2,13.3,Les,Miles
+LSU,2015,12,9,3,0,14,16,16.2,19.7,41.3,21.8,Les,Miles
+LSU,2016,4,2,2,0,5,13,21.2,25.3,34.2,9,Les,Miles
+Kansas,2019,12,3,9,0,,,-5.1,-9.8,26.2,34.8,Les,Miles
+Kansas,2020,9,0,9,0,,,-14.6,-16.3,18.5,34.5,Les,Miles
+Georgia State,2014,12,1,11,0,,,-26.4,-22.8,22.8,45.9,Trent,Miles
+Georgia State,2015,13,6,7,0,,,-11.0,-6.7,28,31.9,Trent,Miles
+Georgia State,2016,10,1,8,0,,,-14.6,-12.1,17.3,26.7,Trent,Miles
+Coastal Carolina,2018,12,5,7,0,,,-15.9,-17.2,28.1,45.7,Joe,Moglia
+Army,2014,12,4,8,0,,,-16.4,-16.9,25.2,40.9,Jeff,Monken
+Army,2015,12,2,10,0,,,-11.5,-21.7,20.3,39,Jeff,Monken
+Army,2016,13,8,5,0,,,-5.2,-9.9,22.2,29.2,Jeff,Monken
+Army,2017,13,10,3,0,,,0.9,-5.3,32.1,35,Jeff,Monken
+Army,2018,13,11,2,0,,,9.5,-1.5,29.4,28.7,Jeff,Monken
+Army,2019,13,5,8,0,,,-5.8,-2.1,28.6,30.4,Jeff,Monken
+Army,2020,12,9,3,0,,,2.5,2.7,27.8,25.3,Jeff,Monken
+Southern Mississippi,2014,12,3,9,0,,,-13.9,-15.9,19,34.8,Todd,Monken
+Southern Mississippi,2015,14,9,5,0,,,1.8,1.4,31.3,31.1,Todd,Monken
+Tulsa,2015,13,6,7,0,,,-5.3,-8.5,32.4,41.2,Philip,Montgomery
+Tulsa,2016,13,10,3,0,,,5.9,7.4,34.6,27.6,Philip,Montgomery
+Tulsa,2017,12,2,10,0,,,-8.7,-10.7,27.3,37.8,Philip,Montgomery
+Tulsa,2018,12,3,9,0,,,-12.0,-11.2,22.9,32.3,Philip,Montgomery
+Tulsa,2019,12,4,8,0,,,-0.1,-2.5,24.6,25.2,Philip,Montgomery
+Tulsa,2020,9,6,3,0,,,,,,,Philip,Montgomery
+East Carolina,2016,12,3,9,0,,,-13.2,-9,27.2,35.1,Scottie,Montgomery
+East Carolina,2017,12,3,9,0,,,-14.8,-14,27.2,41.8,Scottie,Montgomery
+East Carolina,2018,11,3,8,0,,,-15.7,-14.9,18.3,34.2,Scottie,Montgomery
+Mississippi State,2018,13,8,5,0,18,,19.8,23.2,34.6,10.5,Joe,Moorhead
+Mississippi State,2019,13,6,7,0,,,5.0,3.5,33.1,28.7,Joe,Moorhead
+UCLA,2014,13,10,3,0,7,10,15.5,17.7,39.9,23,Jim,Mora
+UCLA,2015,13,8,5,0,13,,9.9,18.6,42.4,22.6,Jim,Mora
+UCLA,2016,12,4,8,0,16,,3.4,9.1,27.5,17.3,Jim,Mora
+UCLA,2017,11,5,6,0,,,0.8,4.9,39.3,34.5,Jim,Mora
+SMU,2015,12,2,10,0,,,-13.1,-17.5,27.3,42.3,Chad,Morris
+SMU,2016,12,5,7,0,,,-8.3,-10.8,24.3,32.6,Chad,Morris
+SMU,2017,13,7,6,0,,,-2.0,-2.9,35.4,37.4,Chad,Morris
+Arkansas,2018,12,2,10,0,,,-7.2,4.5,29.7,25.7,Chad,Morris
+Arkansas,2019,10,2,8,0,,,-7.6,-10.6,21.7,32.3,Chad,Morris
+Mississippi State,2014,13,10,3,0,,11,20.0,22.2,43.2,20.7,Dan,Mullen
+Mississippi State,2015,13,9,4,0,,,15.5,15.1,40.2,23.8,Dan,Mullen
+Mississippi State,2016,13,6,7,0,,,3.5,5.4,34.5,27.8,Dan,Mullen
+Mississippi State,2017,12,8,4,0,,19,14.1,16,32.4,18.1,Dan,Mullen
+Florida,2018,13,10,3,0,,,19.3,23,38.6,17.4,Dan,Mullen
+Florida,2019,13,11,2,0,8,6,19.8,24,37.8,15.5,Dan,Mullen
+Florida,2020,12,8,4,0,8,13,16.2,19.8,43.3,23.9,Dan,Mullen
+Florida,2014,11,6,5,0,,,9.6,17.3,29.8,14.1,Will,Muschamp
+South Carolina,2016,13,6,7,0,,,-2.8,-4,22.7,27.5,Will,Muschamp
+South Carolina,2017,13,9,4,0,,,7.3,7.8,28.4,19.7,Will,Muschamp
+South Carolina,2018,13,7,6,0,,,9.7,14.9,36.4,23.6,Will,Muschamp
+South Carolina,2019,12,4,8,0,,,2.1,4.8,23.4,20.8,Will,Muschamp
+South Carolina,2020,7,2,5,0,,,-5.4,-2.4,27.5,29.7,Will,Muschamp
+Hawai'i,2015,4,1,3,0,,,-21.7,-16.3,16.6,35.1,Chris,Naeole
+Louisiana,2018,14,7,7,0,,,-7.4,-6.9,30.5,38.9,Billy,Napier
+Louisiana,2019,14,11,3,0,,,7.7,9.6,36.7,28.3,Billy,Napier
+Louisiana,2020,11,10,1,0,,15,9.0,8.1,33.8,25.6,Billy,Napier
+Pittsburgh,2015,13,8,5,0,,,8.9,11.1,33.9,22.4,Pat,Narduzzi
+Pittsburgh,2016,13,8,5,0,,,10.6,13.1,43,29.4,Pat,Narduzzi
+Pittsburgh,2017,12,5,7,0,,,3.9,6,31.4,25,Pat,Narduzzi
+Pittsburgh,2018,14,7,7,0,,,5.8,2.7,29,26.6,Pat,Narduzzi
+Pittsburgh,2019,13,8,5,0,,,-0.5,4.1,20.4,16,Pat,Narduzzi
+Pittsburgh,2020,11,6,5,0,,,,,,,Pat,Narduzzi
+Ball State,2016,12,4,8,0,,,-12.2,-7,28.2,35.1,Mike,Neu
+Ball State,2017,12,2,10,0,,,-27.9,-19.7,20.3,37.7,Mike,Neu
+Ball State,2018,12,4,8,0,,,-16.4,-18.9,22.5,40.2,Mike,Neu
+Ball State,2019,12,5,7,0,,,-4.9,-4.5,29.5,32.6,Mike,Neu
+Ball State,2020,8,7,1,0,,23,,,,,Mike,Neu
+Navy,2014,13,8,5,0,,,-0.7,3.4,36.5,32.5,Ken,Niumatalolo
+Navy,2015,13,11,2,0,,18,13.5,12.1,38.9,27.8,Ken,Niumatalolo
+Navy,2016,14,9,5,0,,,2.5,6.8,39.8,33.9,Ken,Niumatalolo
+Navy,2017,13,7,6,0,,,6.1,-0.7,32.5,32.1,Ken,Niumatalolo
+Navy,2018,13,3,10,0,,,-9.7,-10.2,27.5,38.3,Ken,Niumatalolo
+Navy,2019,13,11,2,0,,20,12.9,9.9,36,25.5,Ken,Niumatalolo
+Navy,2020,10,3,7,0,,,,,,,Ken,Niumatalolo
+Nevada,2017,12,3,9,0,,,-9.2,-16.4,25.6,41.1,Jay,Norvell
+Nevada,2018,13,8,5,0,,,-3.9,-0.5,27.5,28,Jay,Norvell
+Nevada,2019,13,7,6,0,,,-12.6,-12.3,19.4,31.9,Jay,Norvell
+Nevada,2020,9,7,2,0,,,2.1,1.9,27.5,25.6,Jay,Norvell
+Memphis,2016,13,8,5,0,,,4.0,7.7,33.8,29.3,Mike,Norvell
+Memphis,2017,13,10,3,0,,25,10.5,7.8,37.6,30.6,Mike,Norvell
+Memphis,2018,14,8,6,0,,,1.2,9.2,38.8,30.5,Mike,Norvell
+Memphis,2019,14,12,2,0,,17,14.4,18,39.5,23.4,Mike,Norvell
+Florida State,2020,9,3,6,0,,,,,,,Mike,Norvell
+Missouri,2016,12,4,8,0,,,-3.6,-1,31.2,31.3,Barry,Odom
+Missouri,2017,13,7,6,0,,,5.3,11.1,35.5,26.4,Barry,Odom
+Missouri,2018,13,8,5,0,,,18.9,20.8,41.3,21,Barry,Odom
+Missouri,2019,12,6,6,0,,,4.4,7.8,24.5,17.1,Barry,Odom
+UCF,2014,13,9,4,0,,,-0.4,5.7,25.8,19.7,George,O'Leary
+UCF,2015,8,0,8,0,,,-21.0,-15.5,16.3,33.7,George,O'Leary
+LSU,2016,8,6,2,0,5,13,21.2,25.3,34.2,9,Ed,Orgeron
+LSU,2017,13,9,4,0,13,18,12.1,21.1,35.6,14,Ed,Orgeron
+LSU,2018,13,10,3,0,25,,18.3,24.2,34.8,13.4,Ed,Orgeron
+LSU,2019,15,15,0,0,6,1,34.2,33.1,48.9,17.7,Ed,Orgeron
+LSU,2020,10,5,5,0,6,,4.2,6,33.8,28.3,Ed,Orgeron
+Purdue,2016,6,0,6,0,,,-12.7,-11,25.1,35.6,Gerad,Parker
+Florida Atlantic,2014,12,3,9,0,,,-11.0,-10.4,25.2,34.9,Charlie,Partridge
+Florida Atlantic,2015,12,3,9,0,,,-14.5,-9.8,18.8,29.3,Charlie,Partridge
+Florida Atlantic,2016,12,3,9,0,,,-20.0,-14.1,28.7,43.5,Charlie,Partridge
+TCU,2014,13,12,1,0,,3,26.8,23.3,39.3,17.5,Gary,Patterson
+TCU,2015,13,11,2,0,2,7,14.7,19,40.8,21.7,Gary,Patterson
+TCU,2016,13,6,7,0,13,,4.3,11,34.5,23.4,Gary,Patterson
+TCU,2017,14,11,3,0,,9,16.8,18.9,35.7,18.7,Gary,Patterson
+TCU,2018,13,7,6,0,16,,4.3,6.9,25.7,16.9,Gary,Patterson
+TCU,2019,12,5,7,0,,,9.6,6.7,28.8,22.9,Gary,Patterson
+TCU,2020,10,6,4,0,,,7.7,1.6,24.3,22.8,Gary,Patterson
+Nebraska,2014,12,9,3,0,22,,13.7,13.1,33.8,21,Bo,Pelini
+Bowling Green,2018,5,2,3,0,,,-21.0,-22,24.7,43.9,Carl,Pelini
+Washington,2014,14,8,6,0,25,,8.2,7.8,28.5,21.8,Chris,Petersen
+Washington,2015,13,7,6,0,,,13.7,9.7,30.1,20.8,Chris,Petersen
+Washington,2016,14,12,2,0,14,4,27.3,26.7,40.2,13.9,Chris,Petersen
+Washington,2017,13,10,3,0,8,16,20.1,22.1,39.4,16.3,Chris,Petersen
+Washington,2018,14,10,4,0,6,,12.2,19.9,34.5,12.7,Chris,Petersen
+Washington,2019,13,8,5,0,13,,15.6,18.3,35.3,19.5,Chris,Petersen
+Louisville,2014,13,9,4,0,,24,11.6,17,34,16.7,Bobby,Petrino
+Louisville,2015,13,8,5,0,,,8.3,13.2,33.4,20,Bobby,Petrino
+Louisville,2016,13,9,4,0,19,21,17.3,22.9,40.8,17.7,Bobby,Petrino
+Louisville,2017,13,8,5,0,16,,13.3,19.2,43.3,24.9,Bobby,Petrino
+Western Kentucky,2018,10,2,8,0,,,-15.2,-16.1,17.9,31.8,Bobby,Petrino
+Idaho,2014,11,1,10,0,,,-22.6,-17.4,24.6,41.4,Paul,Petrino
+Idaho,2015,12,4,8,0,,,-18.7,-12.2,30.7,44.4,Paul,Petrino
+Idaho,2016,13,9,4,0,,,-4.1,-8.6,24.7,34.9,Paul,Petrino
+Idaho,2017,12,4,8,0,,,-14.9,-12.4,18.7,30.2,Paul,Petrino
+Missouri,2014,14,11,3,0,24,14,13.1,19.3,33,15.2,Gary,Pinkel
+Missouri,2015,12,5,7,0,24,,0.5,3.4,16.7,12.4,Gary,Pinkel
+Arkansas,2020,10,3,7,0,,,3.3,1.6,28.5,26.7,Sam,Pittman
+Nevada,2014,13,7,6,0,,,-2.1,-7.3,26.7,33.7,Brian,Polian
+Nevada,2015,13,7,6,0,,,-9.4,-7.1,26.9,32.6,Brian,Polian
+Nevada,2016,12,5,7,0,,,-13.7,-13,26.2,37.9,Brian,Polian
+UTEP,2017,7,0,7,0,,,-28.9,-27.4,12.8,38.7,Mike,Price
+Tennessee,2018,12,5,7,0,,,0.9,5.5,33.4,28.9,Jeremy,Pruitt
+Tennessee,2019,13,8,5,0,,,3.5,10.8,27.8,17.4,Jeremy,Pruitt
+Tennessee,2020,10,3,7,0,25,,-0.3,0.9,24.3,23.6,Jeremy,Pruitt
+Buffalo,2014,7,3,4,0,,,-13.6,-7.7,27.1,33.5,Jeff,Quinn
+Old Dominion,2020,0,0,0,0,,,,,,,Ricky,Rahne
+Iowa State,2014,12,2,10,0,,,-4.7,-7.9,21.7,30.2,Paul,Rhoads
+Iowa State,2015,12,3,9,0,,,-2.2,-0.3,31.2,33.7,Paul,Rhoads
+Temple,2014,12,6,6,0,,,-4.1,-4.7,15.8,18.9,Matt,Rhule
+Temple,2015,14,10,4,0,,,7.4,6,26.4,20.6,Matt,Rhule
+Temple,2016,13,10,3,0,,,7.8,11.9,31.5,19.8,Matt,Rhule
+Baylor,2017,12,1,11,0,,,-4.2,-1.4,26.9,29,Matt,Rhule
+Baylor,2018,13,7,6,0,,,2.6,2,33.1,30.3,Matt,Rhule
+Baylor,2019,14,11,3,0,,13,14.7,17.8,34.7,17.3,Matt,Rhule
+Georgia,2014,13,10,3,0,12,9,23.7,27.6,44.2,16.8,Mark,Richt
+Georgia,2015,12,9,3,0,9,,10.3,16.8,28.6,10.7,Mark,Richt
+Miami,2016,13,9,4,0,,20,16.8,18.6,34.1,17.3,Mark,Richt
+Miami,2017,13,10,3,0,18,13,15.8,17.4,35.3,17,Mark,Richt
+Miami,2018,13,7,6,0,8,,6.9,12.7,29.3,15.8,Mark,Richt
+Oklahoma,2017,14,12,2,0,7,3,22.7,25.5,49.8,24.2,Lincoln,Riley
+Oklahoma,2018,14,12,2,0,7,,21.4,24.9,54,30,Lincoln,Riley
+Oklahoma,2019,14,12,2,0,4,7,20.1,22.9,46.1,24.9,Lincoln,Riley
+Oklahoma,2020,11,9,2,0,5,6,20.2,17.8,43,25.2,Lincoln,Riley
+Oregon State,2014,12,5,7,0,,,-1.6,3.2,30.3,27.9,Mike,Riley
+Nebraska,2015,13,6,7,0,,,6.6,11.1,35.4,25,Mike,Riley
+Nebraska,2016,13,9,4,0,,,6.9,10.3,37.7,28.3,Mike,Riley
+Nebraska,2017,12,4,8,0,,,-0.9,2.5,25.6,23.7,Mike,Riley
+Arizona,2014,14,10,4,0,,19,10.7,7.6,33.4,25.7,Rich,Rodriguez
+Arizona,2015,13,7,6,0,22,,-0.1,4.7,38,31.6,Rich,Rodriguez
+Arizona,2016,12,3,9,0,,,-4.9,-4.5,29.6,32.4,Rich,Rodriguez
+Arizona,2017,13,7,6,0,,,3.4,3.7,38.1,33.9,Rich,Rodriguez
+Illinois,2020,1,0,1,0,,,-7.4,-5.4,23.9,29.4,,Rod Smith
+Hawai'i,2016,14,7,7,0,,,-11.4,-10.1,28.6,40.8,Nick,Rolovich
+Hawai'i,2017,12,3,9,0,,,-20.3,-19.7,23.3,40.4,Nick,Rolovich
+Hawai'i,2018,14,8,6,0,,,-10.1,-10.4,29.5,39.5,Nick,Rolovich
+Hawai'i,2019,15,10,5,0,,,-2.3,-1.9,34.7,35.8,Nick,Rolovich
+Washington State,2020,4,1,3,0,,,,,,,Nick,Rolovich
+Colorado,2018,1,0,1,0,,,-2.4,-0.7,27,27.2,Kurt,Roper
+Alabama,2014,14,12,2,0,2,4,26.5,34.3,44.5,10.7,Nick,Saban
+Alabama,2015,15,14,1,0,3,1,27.3,29,37.7,9.1,Nick,Saban
+Alabama,2016,15,14,1,0,1,2,33.6,31.7,40,8.6,Nick,Saban
+Alabama,2017,14,13,1,0,1,1,26.3,33.5,38.7,5.6,Nick,Saban
+Alabama,2018,15,14,1,0,1,,33.5,36.3,50.9,14.2,Nick,Saban
+Alabama,2019,13,11,2,0,2,8,28.8,32.4,47.7,14.6,Nick,Saban
+Alabama,2020,13,13,0,0,3,1,31.1,28.3,46.8,18.6,Nick,Saban
+UNLV,2015,12,3,9,0,,,-15.0,-16.2,24.2,39.9,Tony,Sanchez
+UNLV,2016,12,4,8,0,,,-15.3,-14.3,26.7,40.4,Tony,Sanchez
+UNLV,2017,12,5,7,0,,,-9.9,-14.5,26.2,39.8,Tony,Sanchez
+UNLV,2018,12,4,8,0,,,-14.7,-11.1,30.7,38.9,Tony,Sanchez
+UNLV,2019,12,4,8,0,,,-16.5,-17.4,19.3,36.1,Tony,Sanchez
+Western Kentucky,2017,13,6,7,0,,,-15.0,-4.9,25.5,30,Mike,Sanford
+Western Kentucky,2018,12,3,9,0,,,-15.2,-16.1,17.9,31.8,Mike,Sanford
+USC,2014,13,9,4,0,15,20,16.6,17.1,38.8,22.5,Steve,Sarkisian
+Appalachian State,2014,12,7,5,0,,,-8.2,-8.3,26.2,32,Scott,Satterfield
+Appalachian State,2015,13,11,2,0,,,2.4,7.9,33.2,25.1,Scott,Satterfield
+Appalachian State,2016,13,10,3,0,,,5.0,9.2,30,20.5,Scott,Satterfield
+Appalachian State,2017,13,9,4,0,,,1.6,3.8,29.5,24.8,Scott,Satterfield
+Appalachian State,2018,12,10,2,0,,,10.7,11.9,30,19,Scott,Satterfield
+Louisville,2019,13,8,5,0,,,0.1,0.2,34.6,33.6,Scott,Satterfield
+Louisville,2020,11,4,7,0,,,,,,,Scott,Satterfield
+Rutgers,2020,9,3,6,0,,,-2.7,-10.5,20.8,31.5,Greg,Schiano
+South Florida,2020,9,1,8,0,,,,,,,Jeff,Scott
+Southern Mississippi,2020,4,1,3,0,,,-15.0,-7.9,24.2,32.1,,Scotty Walden
+Syracuse,2014,12,3,9,0,,,-3.9,-2.1,18.8,20.9,Scott,Shafer
+Syracuse,2015,12,4,8,0,,,-0.9,-3.9,30,33.2,Scott,Shafer
+Florida,2017,4,1,3,0,17,,-0.9,10.1,30.8,22.4,Randy,Shannon
+Stanford,2014,13,8,5,0,11,,15.1,21.4,33.5,12,David,Shaw
+Stanford,2015,14,12,2,0,21,3,20.6,22.8,44.5,24.5,David,Shaw
+Stanford,2016,13,10,3,0,8,12,12.7,16.4,31.2,17.5,David,Shaw
+Stanford,2017,14,9,5,0,14,20,12.5,15.8,37.7,24.5,David,Shaw
+Stanford,2018,13,9,4,0,13,,8.3,13,35.4,24.3,David,Shaw
+Stanford,2019,12,4,8,0,25,,-1.9,-4.7,27.2,32.2,David,Shaw
+Stanford,2020,6,4,2,0,,,,,,,David,Shaw
+Memphis,2020,11,8,3,0,,,,,,,Ryan,Silverfield
+BYU,2016,13,9,4,0,,,7.3,8,29.6,23.1,Kalani,Sitake
+BYU,2017,13,4,9,0,,,-10.6,-7.4,18.6,25.8,Kalani,Sitake
+BYU,2018,13,7,6,0,,,3.2,6.2,28.9,22.3,Kalani,Sitake
+BYU,2019,13,7,6,0,,,-1.0,1.3,28.6,26.2,Kalani,Sitake
+BYU,2020,12,11,1,0,,11,19.6,19.2,39.2,20.3,Kalani,Sitake
+Georgia,2016,13,8,5,0,18,,4.7,9.3,28,17.6,Kirby,Smart
+Georgia,2017,15,13,2,0,15,2,27.0,26.7,39.6,15.4,Kirby,Smart
+Georgia,2018,14,11,3,0,3,,26.3,32.9,45.9,14.2,Kirby,Smart
+Georgia,2019,14,12,2,0,3,4,21.7,26.8,34.2,10,Kirby,Smart
+Georgia,2020,10,8,2,0,4,7,18.9,19.1,30.8,12.1,Kirby,Smart
+Oregon State,2018,12,2,10,0,,,-16.0,-16,28.8,43.4,Jonathan,Smith
+Oregon State,2019,12,5,7,0,,,3.0,-0.7,33.8,32.8,Jonathan,Smith
+Oregon State,2020,7,2,5,0,,,,,,,Jonathan,Smith
+Illinois,2016,12,3,9,0,,,-10.1,-6.7,22.7,29.5,Lovie,Smith
+Illinois,2017,12,2,10,0,,,-11.4,-7.4,21.6,29.9,Lovie,Smith
+Illinois,2018,12,4,8,0,,,-10.5,-7.9,29.1,38.6,Lovie,Smith
+Illinois,2019,13,6,7,0,,,-0.4,0.6,24.4,25.8,Lovie,Smith
+Illinois,2020,7,2,5,0,,,-7.4,-5.4,23.9,29.4,Lovie,Smith
+Kansas State,2014,13,9,4,0,20,18,18.5,16.3,37.7,23.2,Bill,Snyder
+Kansas State,2015,13,6,7,0,,,2.1,2.6,32.2,30.8,Bill,Snyder
+Kansas State,2016,13,9,4,0,,,9.7,8.2,34.2,27.2,Bill,Snyder
+Kansas State,2017,13,8,5,0,20,,7.3,10.9,34.4,26.1,Bill,Snyder
+Kansas State,2018,12,5,7,0,,,3.9,-0.5,27.2,27.5,Bill,Snyder
+Ohio,2014,12,6,6,0,,,-14.7,-11.7,17.8,28.2,Frank,Solich
+Ohio,2015,13,8,5,0,,,-4.9,-0.5,24.5,26.6,Frank,Solich
+Ohio,2016,14,8,6,0,,,-4.6,-2.1,22,25.8,Frank,Solich
+Ohio,2017,13,9,4,0,,,2.8,3.3,32.2,30.6,Frank,Solich
+Ohio,2018,13,9,4,0,,,7.4,4,38.2,35,Frank,Solich
+Ohio,2019,13,7,6,0,,,-4.7,3.7,35.9,33.5,Frank,Solich
+Ohio,2020,3,2,1,0,,,,,,,Frank,Solich
+Texas State,2019,12,3,9,0,,,-18.8,-16.2,17.6,33,Jake,Spavital
+Texas State,2020,12,2,10,0,,,-8.4,-13.4,23.5,36.9,Jake,Spavital
+South Carolina,2014,13,7,6,0,9,,7.4,17.4,43.6,26.5,Steve,Spurrier
+South Carolina,2015,6,2,4,0,,,1.4,3.4,31.3,28.6,Steve,Spurrier
+Middle Tennessee,2014,12,6,6,0,,,-5.9,-8.7,29.6,36.5,Rick,Stockstill
+Middle Tennessee,2015,13,7,6,0,,,-3.6,-4.6,27.7,32.1,Rick,Stockstill
+Middle Tennessee,2016,13,8,5,0,,,-9.4,-1.9,35,36.8,Rick,Stockstill
+Middle Tennessee,2017,13,7,6,0,,,-8.8,-4.9,21.2,26.8,Rick,Stockstill
+Middle Tennessee,2018,14,8,6,0,,,-0.9,-3.8,24.4,28.7,Rick,Stockstill
+Middle Tennessee,2019,12,4,8,0,,,-7.6,-11.3,27.2,37.4,Rick,Stockstill
+Middle Tennessee,2020,9,3,6,0,,,-13.6,-11.7,24.3,35.8,Rick,Stockstill
+Oklahoma,2014,13,8,5,0,4,,15.4,19.2,39.9,22.2,Bob,Stoops
+Oklahoma,2015,13,11,2,0,19,5,23.1,22.7,41.7,19.3,Bob,Stoops
+Oklahoma,2016,13,11,2,0,3,5,17.2,26.1,48.7,22.9,Bob,Stoops
+Kentucky,2014,12,5,7,0,,,0.1,6.6,29.8,24.8,Mark,Stoops
+Kentucky,2015,12,5,7,0,,,-3.1,-0.3,26.8,27.2,Mark,Stoops
+Kentucky,2016,13,7,6,0,,,0.3,-2.6,30.8,33.4,Mark,Stoops
+Kentucky,2017,13,7,6,0,,,0.5,2.7,30.8,29.5,Mark,Stoops
+Kentucky,2018,13,10,3,0,,,14.7,13.1,29.5,16.3,Mark,Stoops
+Kentucky,2019,13,8,5,0,,,5.6,9.1,30.1,22.2,Mark,Stoops
+Kentucky,2020,11,5,6,0,,,3.9,2.2,25.9,24.1,Mark,Stoops
+Texas,2014,13,6,7,0,,,5.8,9,26,17.2,Charlie,Strong
+Texas,2015,12,5,7,0,,,2.3,3.7,30.7,27,Charlie,Strong
+Texas,2016,12,5,7,0,,,2.6,10.6,37.4,26.8,Charlie,Strong
+South Florida,2017,12,10,2,0,19,21,8.9,10.2,31.6,21.2,Charlie,Strong
+South Florida,2018,13,7,6,0,,,-11.0,-1.2,29.1,29.8,Charlie,Strong
+South Florida,2019,12,4,8,0,,,-8.3,-9.8,20.4,27.4,Charlie,Strong
+Texas A&M,2014,13,8,5,0,21,,11.6,20.2,43.6,26.3,Kevin,Sumlin
+Texas A&M,2015,13,8,5,0,,,11.3,14.1,31.9,18.8,Kevin,Sumlin
+Texas A&M,2016,13,8,5,0,,,11.5,12,37.2,26.1,Kevin,Sumlin
+Texas A&M,2017,12,7,5,0,,,5.4,9.4,33.1,25.2,Kevin,Sumlin
+Arizona,2018,12,5,7,0,,,-2.8,3.6,32.3,29,Kevin,Sumlin
+Arizona,2019,12,4,8,0,,,-5.4,-8,30.1,36.1,Kevin,Sumlin
+Arizona,2020,5,0,5,0,,,,,,,Kevin,Sumlin
+Georgia Southern,2016,12,5,7,0,,,-7.8,-3.9,27.8,32.6,Tyson,Summers
+Georgia Southern,2017,6,0,6,0,,,-17.4,-15.8,18.3,35.5,Tyson,Summers
+Clemson,2014,13,10,3,0,16,15,13.9,18.1,29,11.6,Dabo,Swinney
+Clemson,2015,15,14,1,0,12,2,22.3,24,41.9,17.2,Dabo,Swinney
+Clemson,2016,15,14,1,0,2,1,25.3,28.7,43.5,14.1,Dabo,Swinney
+Clemson,2017,14,12,2,0,5,4,25.9,26.4,36.5,8.3,Dabo,Swinney
+Clemson,2018,15,15,0,0,2,,32.7,29.7,43,12.6,Dabo,Swinney
+Clemson,2019,15,14,1,0,1,2,28.6,28.1,43.5,14.6,Dabo,Swinney
+Clemson,2020,12,10,2,0,1,3,,,,,Dabo,Swinney
+South Florida,2014,12,4,8,0,,,-14.9,-11.8,19,32.3,Willie,Taggart
+South Florida,2015,13,8,5,0,,,8.4,3.6,30.1,26.8,Willie,Taggart
+South Florida,2016,12,10,2,0,,19,7.2,9.8,44.4,34.9,Willie,Taggart
+Oregon,2017,13,7,6,0,,,4.6,9.1,35,25.1,Willie,Taggart
+Florida State,2018,12,5,7,0,19,,-2.8,1.4,25,22.8,Willie,Taggart
+Florida State,2019,9,4,5,0,,,0.2,1.8,30.2,27.1,Willie,Taggart
+Florida Atlantic,2020,9,5,4,0,,,-8.2,-0.3,23.2,23.7,Willie,Taggart
+Fresno State,2017,14,10,4,0,,,3.3,-2.7,22.3,25.5,Jeff,Tedford
+Fresno State,2018,14,12,2,0,,,12.8,17.4,33.5,15.5,Jeff,Tedford
+Fresno State,2019,12,4,8,0,,,-4.6,-4,30.6,33.6,Jeff,Tedford
+Southern Mississippi,2020,5,2,3,0,,,-15.0,-7.9,24.2,32.1,,Tim Billings
+Vanderbilt,2020,1,0,1,0,,,-14.4,-16.8,17.7,34.1,,Todd Fitch
+UT San Antonio,2020,12,7,5,0,,,-3.9,-9.6,23.8,33.7,Jeff,Traylor
+Cincinnati,2014,13,9,4,0,,,1.6,6.9,36.3,29.8,Tommy,Tuberville
+Cincinnati,2015,13,7,6,0,,,0.1,5.3,34.4,28.2,Tommy,Tuberville
+Cincinnati,2016,12,4,8,0,,,-11.7,-3.6,24.5,27.3,Tommy,Tuberville
+Colorado,2019,12,5,7,0,,,-2.2,-4.1,30.1,34.7,Mel,Tucker
+Michigan State,2020,7,2,5,0,,,-4.5,-2.4,18.3,20.6,Mel,Tucker
+Florida International,2014,12,4,8,0,,,-8.5,-16.2,15,30.3,Ron,Turner
+Florida International,2015,12,5,7,0,,,-13.5,-16.6,21.7,36.5,Ron,Turner
+Florida International,2016,4,0,4,0,,,-19.1,-19,25,42.2,Ron,Turner
+Louisiana Monroe,2016,12,4,8,0,,,-19.6,-21.3,20.4,41.5,Matt,Viator
+Louisiana Monroe,2017,12,4,8,0,,,-12.7,-12.9,32.3,45.5,Matt,Viator
+Louisiana Monroe,2018,12,6,6,0,,,-10.9,-10.9,26.5,35.4,Matt,Viator
+Louisiana Monroe,2019,12,5,7,0,,,-9.0,-10.7,31.5,40.8,Matt,Viator
+Louisiana Monroe,2020,10,0,10,0,,,-24.5,-18.4,21.6,39.6,Matt,Viator
+Louisville,2018,2,0,2,0,,,-15.4,-9.1,24.5,33.6,Lorenzo,Ward
+Kansas,2014,4,2,2,0,,,-7.5,-9.8,21.1,29.1,Charlie,Weis
+Utah State,2014,14,10,4,0,,,1.4,6,25.2,18.6,Matt,Wells
+Utah State,2015,13,6,7,0,,,-0.2,-0.1,24.1,22.9,Matt,Wells
+Utah State,2016,12,3,9,0,,,-9.3,-4.4,24.7,27.7,Matt,Wells
+Utah State,2017,13,6,7,0,,,-5.2,-3.3,24.4,28,Matt,Wells
+Utah State,2018,12,10,2,0,,,13.9,14.2,36.3,22.5,Matt,Wells
+Texas Tech,2019,12,4,8,0,,,2.3,2.7,32.5,31.2,Matt,Wells
+Texas Tech,2020,10,4,6,0,,,-1.4,-4.2,28.4,32.3,Matt,Wells
+UMass,2014,12,3,9,0,,,-15.6,-20.2,22.6,39.9,Mark,Whipple
+UMass,2015,12,3,9,0,,,-14.7,-9.5,22.1,29.3,Mark,Whipple
+UMass,2016,12,2,10,0,,,-17.0,-15.3,23.7,36.7,Mark,Whipple
+UMass,2017,12,4,8,0,,,-10.3,-9.7,24.1,31.9,Mark,Whipple
+UMass,2018,12,4,8,0,,,-18.4,-16.1,27.8,42.2,Mark,Whipple
+Utah,2014,13,9,4,0,,21,10.7,8.8,29.1,23,Kyle,Whittingham
+Utah,2015,13,10,3,0,,17,11.8,11,28.8,19.8,Kyle,Whittingham
+Utah,2016,13,9,4,0,,23,9.2,10.9,32.5,23.6,Kyle,Whittingham
+Utah,2017,13,7,6,0,,,7.3,12,30.6,20.5,Kyle,Whittingham
+Utah,2018,14,9,5,0,,,10.6,16.8,31.9,18.1,Kyle,Whittingham
+Utah,2019,14,11,3,0,14,16,18.8,19.5,36.5,17,Kyle,Whittingham
+Utah,2020,5,3,2,0,22,,,,,,Kyle,Whittingham
+California,2017,12,5,7,0,,,1.9,-1,28.7,29.9,Justin,Wilcox
+California,2018,13,7,6,0,,,0.3,3.9,18.3,15.6,Justin,Wilcox
+California,2019,13,8,5,0,,,4.2,-2.6,23.8,24.7,Justin,Wilcox
+California,2020,4,1,3,0,,,,,,,Justin,Wilcox
+Old Dominion,2014,12,6,6,0,,,-9.9,-12.7,32.8,43.3,Bobby,Wilder
+Old Dominion,2015,12,5,7,0,,,-21.6,-14.8,22.5,37.5,Bobby,Wilder
+Old Dominion,2016,13,10,3,0,,,-4.2,-0.7,29.9,30.9,Bobby,Wilder
+Old Dominion,2017,12,5,7,0,,,-20.6,-16.8,16.3,32.8,Bobby,Wilder
+Old Dominion,2018,12,4,8,0,,,-18.9,-14.1,24.9,39.7,Bobby,Wilder
+Old Dominion,2019,12,1,11,0,,,-19.8,-24.4,10.6,34.3,Bobby,Wilder
+UT San Antonio,2016,13,6,7,0,,,-7.3,-11.2,22.7,33.6,Frank,Wilson
+UT San Antonio,2017,11,6,5,0,,,-9.0,-2.5,18.7,22.5,Frank,Wilson
+UT San Antonio,2018,12,3,9,0,,,-21.8,-22.1,11.1,34.4,Frank,Wilson
+UT San Antonio,2019,12,4,8,0,,,-21.1,-23.7,18.9,41.7,Frank,Wilson
+Indiana,2014,12,4,8,0,,,-6.6,1.8,30.1,27.8,Kevin,Wilson
+Indiana,2015,13,6,7,0,,,2.2,0.4,37.5,35.9,Kevin,Wilson
+Indiana,2016,12,6,6,0,,,1.0,4.6,25.1,19.4,Kevin,Wilson
+Texas State,2016,12,2,10,0,,,-29.2,-25.5,18.4,42.5,Everett,Withers
+Texas State,2017,12,2,10,0,,,-25.0,-23.5,14.7,36.9,Everett,Withers
+Texas State,2018,11,3,8,0,,,-19.8,-16.4,14.9,29,Everett,Withers
+Buffalo,2014,4,2,2,0,,,-13.6,-7.7,27.1,33.5,Alex,Wood
+Texas State,2018,1,0,1,0,,,-19.8,-16.4,14.9,29,Chris,Woods
