@@ -1,5 +1,6 @@
 library(cfbfastR)
-library(dplyr)
+library(tidyverse)
+library(stringr)
 
 years <- 2014:2020
 
@@ -37,7 +38,7 @@ full_pbp <- left_join(pbp_data, coach_data, by=c("year" = "year", "pos_team" = "
 full_pbp <- left_join(full_pbp, coach_data, by=c("year" = "year", "def_pos_team" = "school", "week" = "week")) %>%
     rename(def_pos_team_coach = full_name)
 
-full_pbp < full_pbp %>%
+full_pbp <- full_pbp %>%
     filter(
         !is.na(pos_team_coach)
         & !is.na(def_pos_team_coach)
@@ -132,3 +133,60 @@ fd_decisions <- full_fd_data %>%
     select(
         pos_team_coach, obvious_go, opps, pct
     )
+
+# Recruiting Points
+recruiting_data <- data.frame()
+for (yr in years) {
+    tmp = cfbd_recruiting_team(yr)
+    recruiting_data <- bind_rows(recruiting_data, tmp)
+}
+
+recruiting_data$week <- 1
+recruiting_data <- left_join(recruiting_data, coach_data, by=c("year" = "year", "team" = "school", "week" = "week")) %>%
+    rename(coach = full_name)
+recruiting_data <- recruiting_data %>%
+    filter(
+        !is.na(coach)
+    )
+
+recruiting_summary <- recruiting_data %>%
+    mutate(
+        points = as.numeric(points)
+    ) %>%
+    group_by(coach) %>%
+    summarise(average_class_score = mean(points), average_rank = mean(rank))
+
+# Draft/Development
+# https://raw.githubusercontent.com/drmartylawrence/recruitingDraftValue/main/dvDraftCoach.csv
+dvoe_data <- read.csv("https://raw.githubusercontent.com/drmartylawrence/recruitingDraftValue/main/dvDraftCoach.csv")
+dvoe_data <- dvoe_data %>%
+    select(-X, -X.1)
+
+# Big Coach Summary Dataset
+composite_coach_data <- left_join(recruiting_summary, fd_decisions, by=c("coach" = "pos_team_coach"))
+composite_coach_data <- left_join(composite_coach_data, close_game_win_prob, by=c("coach" = "pos_team_coach"))
+composite_coach_data <- left_join(composite_coach_data, first_down_passing, by=c("coach" = "pos_team_coach"))
+composite_coach_data <- composite_coach_data %>%
+    rename(
+        "avg_croot_points" = average_class_score,
+        "obvious_go_pct" = pct.x,
+        "one_score_game_win_pct" = pct.y,
+        "first_down_pass_rate" = pct
+    )
+
+
+composite_coach_data <- composite_coach_data %>%
+    mutate(
+       coach = str_trim(coach)
+    ) %>%
+    select(
+        coach,
+        avg_croot_points,
+        one_score_game_win_pct,
+        first_down_pass_rate
+    )
+
+composite_coach_data <- left_join(composite_coach_data, dvoe_data, by=c("coach" = "Coach"))
+composite_coach_data <- composite_coach_data %>%
+    drop_na() %>%
+    select(-Draft.Value, -Exp..Draft.Value)
