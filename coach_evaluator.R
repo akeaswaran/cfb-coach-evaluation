@@ -261,7 +261,13 @@ pca_chart <- organized_pca %>%
     scale_y_reordered() +
     labs(
         x = "Absolute value of contribution",
-        y = NULL, fill = "Positive?"
+        y = NULL, fill = "Positive?",
+        title = case_when(
+            cluster == 4 ~ "Manny Diaz Underachieving Co.",
+            cluster == 1 ~ "Guys Bein' Dudes",
+            cluster == 3 ~ "The Mark Richt Zone",
+            cluster == 2 ~ "Nick Saban & Friends",
+        )
     )
 ggsave(pca_chart, filename = "./data/pca_chart.png",
        dpi = 300,
@@ -288,9 +294,9 @@ ind.coord <- ind.coord %>%
     mutate(
         cluster = as.factor(cluster),
         cluster_title = case_when(
-            cluster == 3 ~ "Manny Diaz Underachieving Co.",
-            cluster == 4 ~ "Guys Bein' Dudes",
-            cluster == 1 ~ "The Mark Richt Zone",
+            cluster == 4 ~ "Manny Diaz Underachieving Co.",
+            cluster == 1 ~ "Guys Bein' Dudes",
+            cluster == 3 ~ "The Mark Richt Zone",
             cluster == 2 ~ "Nick Saban & Friends",
         ),
         cluster_title = as.factor(cluster_title)
