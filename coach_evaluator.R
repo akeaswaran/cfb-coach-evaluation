@@ -252,7 +252,8 @@ organized_pca <- melt(organized_pca) %>%
         value = as.numeric(value)
     )
 
-organized_pca %>%
+# PCA Chart
+pca_chart <- organized_pca %>%
     mutate(components = reorder_within(component, abs(value), cluster)) %>%
     ggplot(aes(abs(value), components, fill = value > 0)) +
     geom_col() +
@@ -262,6 +263,13 @@ organized_pca %>%
         x = "Absolute value of contribution",
         y = NULL, fill = "Positive?"
     )
+ggsave(pca_chart, filename = "./data/pca_chart.png",
+       dpi = 300,
+       type = "cairo",
+       width = 16,
+       height = 9,
+       units = "in")
+pca_chart
 
 ind.coord <- ind.coord %>%
     rename(
@@ -271,27 +279,32 @@ ind.coord <- ind.coord %>%
         "1st Down Pass Rate" = "Dim.4",
         "DVOE" = "Dim.5"
     )
+ind.coord$coach <- composite_coach_data$coach
+composite_coach_data$cluster <- ind.coord$cluster
+write.csv(composite_coach_data, "./data/coaching_clusters.csv")
 
 # note: the cluster assignment will change every time you run the KMeans stuff
 ind.coord <- ind.coord %>%
     mutate(
+        cluster = as.factor(cluster),
         cluster_title = case_when(
-            cluster == 3 ~ "Aggressive / Not Clutch",
-            cluster == 4 ~ "Conservative / Poor Talent",
-            cluster == 1 ~ "Conversative on 4th / Clutch",
-            cluster == 2 ~ "Good at Development / Good Talent",
-        )
+            cluster == 3 ~ "Manny Diaz Underachieving Co.",
+            cluster == 4 ~ "Guys Bein' Dudes",
+            cluster == 1 ~ "The Mark Richt Zone",
+            cluster == 2 ~ "Nick Saban & Friends",
+        ),
+        cluster_title = as.factor(cluster_title)
     )
 
 # Create plot
-ggscatter(
+coach_chart <- ggscatter(
     ind.coord, x = "Obvious Go Rate", y = "Avg Croot Class Points",
-    color = "cluster_title", palette = "npg", ellipse = TRUE, ellipse.type = "convex",
+    color = "cluster_title", shape = "cluster_title", palette = "npg", ellipse = TRUE, ellipse.type = "convex",
     size = 1.5,  legend = "right", ggtheme = theme_fivethirtyeight(),
-    xlab = paste0("Obvious Go Rate"),
-    ylab = paste0("Avg Recruiting Class Strength")
+    xlab = paste0("Obvious Go Rate (scaled)"),
+    ylab = paste0("Avg Recruiting Class Strength (scaled)")
 ) +
-    stat_mean(aes(color = cluster_title), size = 4) +
+    stat_mean(aes(color = cluster_title, shape = cluster_title), size = 4) +
     theme(axis.title = element_text()) +
     theme(
         legend.position = "bottom",
@@ -302,6 +315,14 @@ ggscatter(
         subtitle = "How can we put coaches into game management boxes?",
         caption = "Data from @cfbfastR. Chart made by Akshay Easwaran (@akeaswaran)."
     )
+
+ggsave(coach_chart, filename = "./data/cluster_chart.png",
+       dpi = 300,
+       type = "cairo",
+       width = 16,
+       height = 9,
+       units = "in")
+coach_chart
 
 # -------------------------
 
