@@ -318,9 +318,9 @@ coach_chart <- ggscatter(
         legend.title = element_blank()
     ) +
     labs(
-        title = "Classifying Coaches",
-        subtitle = "How can we put coaches into game management boxes?",
-        caption = "Data from @cfbfastR. Chart made by Akshay Easwaran (@akeaswaran)."
+        title = "Classifying CFB Coaches",
+        subtitle = "How can we put coaches into boxes?",
+        caption = "Data from 2014 to 2020 seasons, provided by @cfbfastR. Chart made by Akshay Easwaran (@akeaswaran)."
     )
 
 ggsave(coach_chart, filename = "./data/cluster_chart.png",
