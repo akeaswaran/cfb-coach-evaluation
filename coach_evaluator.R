@@ -276,10 +276,10 @@ ind.coord <- ind.coord %>%
 ind.coord <- ind.coord %>%
     mutate(
         cluster_title = case_when(
-            cluster == 1 ~ "Aggressive / Not Clutch",
-            cluster == 2 ~ "Conservative / Poor Talent",
-            cluster == 3 ~ "Conversative on 4th / Clutch",
-            cluster == 4 ~ "Good at Development / Good Talent",
+            cluster == 3 ~ "Aggressive / Not Clutch",
+            cluster == 4 ~ "Conservative / Poor Talent",
+            cluster == 1 ~ "Conversative on 4th / Clutch",
+            cluster == 2 ~ "Good at Development / Good Talent",
         )
     )
 
