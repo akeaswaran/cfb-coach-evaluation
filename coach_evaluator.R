@@ -293,10 +293,14 @@ ggscatter(
 ) +
     stat_mean(aes(color = cluster_title), size = 4) +
     theme(axis.title = element_text()) +
-    theme(legend.position = "bottom") +
+    theme(
+        legend.position = "bottom",
+        legend.title = element_blank()
+    ) +
     labs(
-        title = "Coach Evaluation Clusters",
-        subtitle = "Evaluating coaches on various metrics"
+        title = "Classifying Coaches",
+        subtitle = "How can we put coaches into game management boxes?",
+        caption = "Data from @cfbfastR. Chart made by Akshay Easwaran (@akeaswaran)."
     )
 
 # -------------------------
