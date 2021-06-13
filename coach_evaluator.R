@@ -270,7 +270,10 @@ ind.coord <- ind.coord %>%
         "One-Score Win Pct" = "Dim.3",
         "1st Down Pass Rate" = "Dim.4",
         "DVOE" = "Dim.5"
-    ) %>%
+    )
+
+# note: the cluster assignment will change every time you run the KMeans stuff
+ind.coord <- ind.coord %>%
     mutate(
         cluster_title = case_when(
             cluster == 1 ~ "Aggressive / Not Clutch",
