@@ -243,17 +243,25 @@ ind.coord <- ind.coord %>%
         "One-Score Win Pct" = "Dim.3",
         "1st Down Pass Rate" = "Dim.4",
         "DVOE" = "Dim.5"
+    ) %>%
+    mutate(
+        cluster_title = case_when(
+            cluster == 1 ~ "Aggressive / Poor Talent / Poor Development",
+            cluster == 2 ~ "Aggressive on 4th Down / Poorer Talent / Average Development",
+            cluster == 3 ~ "Good at winning close / Good Talent / Good Development",
+            cluster == 4 ~ "Good at winning close / Good Talent / Poor Development",
+        )
     )
 
 # Create plot
 ggscatter(
     ind.coord, x = "Obvious Go Rate", y = "Avg Croot Class Points",
-    color = "cluster", palette = "npg", ellipse = TRUE, ellipse.type = "convex",
+    color = "cluster_title", palette = "npg", ellipse = TRUE, ellipse.type = "convex",
     size = 1.5,  legend = "right", ggtheme = theme_fivethirtyeight(),
-    xlab = paste0("Obvious Go Rate (", variance.percent[1], "% )" ),
-    ylab = paste0("Avg Croot Class Points (", variance.percent[2], "% )" )
+    xlab = paste0("Obvious Go Rate"),
+    ylab = paste0("Avg Recruiting Class Strength")
 ) +
-    stat_mean(aes(color = cluster), size = 4) +
+    stat_mean(aes(color = cluster_title), size = 4) +
     theme(axis.title = element_text()) +
     theme(legend.position = "bottom") +
     labs(
