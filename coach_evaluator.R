@@ -1,6 +1,10 @@
 library(cfbfastR)
 library(tidyverse)
 library(stringr)
+library(ggpubr)
+library(factoextra)
+library(ggthemes)
+library(cluster)
 
 years <- 2014:2020
 
@@ -181,6 +185,7 @@ composite_coach_data <- composite_coach_data %>%
     ) %>%
     select(
         coach,
+        obvious_go_pct,
         avg_croot_points,
         one_score_game_win_pct,
         first_down_pass_rate
@@ -190,3 +195,60 @@ composite_coach_data <- left_join(composite_coach_data, dvoe_data, by=c("coach" 
 composite_coach_data <- composite_coach_data %>%
     drop_na() %>%
     select(-Draft.Value, -Exp..Draft.Value)
+write.csv(composite_coach_data, "./data/coaching_summary.csv")
+
+# K means time
+# resources:
+# - https://uc-r.github.io/kmeans_clustering#elbow
+# - https://www.datanovia.com/en/blog/k-means-clustering-visualization-in-r-step-by-step-guide/
+set.seed(1990)
+coach_clusters <- scale(composite_coach_data %>% select(-coach))
+
+# Silhouette method of identifying K
+# fviz_nbclust(coach_clusters, kmeans, method = "silhouette")
+#
+# Gap Statistic method of identifying K
+gap_stat <- clusGap(coach_clusters, FUN = kmeans, nstart = 25, K.max = 10, B = 50)
+fviz_gap_stat(gap_stat)
+
+# Elbow method to identify K
+fviz_nbclust(coach_clusters, kmeans, method = "wss")
+
+# Elbow = 4
+# Silhouette = 10
+# gap stat = 1
+
+res.km <- kmeans(coach_clusters, 4, nstart = 25)
+print(res.km)
+# K-means clusters showing the group of each individuals
+res.km$cluster
+# # Dimension reduction using PCA
+res.pca <- prcomp(coach_clusters,  scale = TRUE)
+# Coordinates of individuals
+ind.coord <- as.data.frame(get_pca_ind(res.pca)$coord)
+# Add clusters obtained using the K-means algorithm
+ind.coord$cluster <- factor(res.km$cluster)
+
+
+ind.coord <- ind.coord %>%
+    rename(
+        "Obvious Go Rate" = "Dim.1",
+        "Avg Croot Class Points" = "Dim.2",
+        "One-Score Win Pct" = "Dim.3",
+        "1st Down Pass Rate" = "Dim.4"
+    )
+
+ggscatter(
+    ind.coord, x = "Obvious Go Rate", y = "Avg Croot Class Points",
+    color = "cluster", palette = "npg", ellipse = TRUE, ellipse.type = "convex",
+    size = 1.5,  legend = "right", ggtheme = theme_fivethirtyeight(),
+    xlab = paste0("Obvious Go Rate (", variance.percent[1], "% )" ),
+    ylab = paste0("Avg Croot Class Points (", variance.percent[2], "% )" )
+) +
+    stat_mean(aes(color = cluster), size = 4) +
+    theme(axis.title = element_text()) +
+    theme(legend.position = "bottom") +
+    labs(
+        title = "Coach Evaluation Clusters",
+        subtitle = "Evaluating coaches on various metrics"
+    )
