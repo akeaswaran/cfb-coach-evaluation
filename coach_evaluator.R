@@ -236,6 +236,33 @@ ind.coord <- as.data.frame(get_pca_ind(res.pca)$coord)
 # Add clusters obtained using the K-means algorithm
 ind.coord$cluster <- factor(res.km$cluster)
 
+# Looking at components
+# src: https://juliasilge.com/blog/best-hip-hop/
+organized_pca <- data.frame(res.km$centers)
+organized_pca <- cbind(cluster = rownames(organized_pca), organized_pca)
+rownames(organized_pca) <- 1:nrow(organized_pca)
+organized_pca <- melt(organized_pca) %>%
+    rename(
+        component = variable
+    ) %>%
+    mutate(
+        component = as.factor(component)
+    ) %>%
+    mutate(
+        value = as.numeric(value)
+    )
+
+organized_pca %>%
+    mutate(components = reorder_within(component, abs(value), cluster)) %>%
+    ggplot(aes(abs(value), components, fill = value > 0)) +
+    geom_col() +
+    facet_wrap(~cluster, scales = "free_y") +
+    scale_y_reordered() +
+    labs(
+        x = "Absolute value of contribution",
+        y = NULL, fill = "Positive?"
+    )
+
 ind.coord <- ind.coord %>%
     rename(
         "Obvious Go Rate" = "Dim.1",
@@ -246,10 +273,10 @@ ind.coord <- ind.coord %>%
     ) %>%
     mutate(
         cluster_title = case_when(
-            cluster == 1 ~ "Aggressive / Poor Talent / Poor Development",
-            cluster == 2 ~ "Aggressive on 4th Down / Poorer Talent / Average Development",
-            cluster == 3 ~ "Good at winning close / Good Talent / Good Development",
-            cluster == 4 ~ "Good at winning close / Good Talent / Poor Development",
+            cluster == 1 ~ "Aggressive / Not Clutch",
+            cluster == 2 ~ "Conservative / Poor Talent",
+            cluster == 3 ~ "Conversative on 4th / Clutch",
+            cluster == 4 ~ "Good at Development / Good Talent",
         )
     )
 
@@ -326,5 +353,3 @@ ggscatter(
 #     mdn_centers <- rbind(mdn_centers, tmp)
 # }
 #
-
-
