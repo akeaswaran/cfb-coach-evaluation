@@ -214,10 +214,17 @@ coach_clusters <- scale(composite_coach_data %>% select(-coach))
 # Elbow method to identify K
 fviz_nbclust(coach_clusters, kmeans, method = "wss")
 
+# Potential K-values:
 # Elbow = 4
 # Silhouette = 10
 # gap stat = 1
 
+# Percentage of variance explained by dimensions
+eigenvalue <- round(get_eigenvalue(res.pca), 1)
+variance.percent <- eigenvalue$variance.percent
+head(eigenvalue)
+
+# Actually do clusters
 res.km <- kmeans(coach_clusters, 4, nstart = 25)
 print(res.km)
 # K-means clusters showing the group of each individuals
@@ -234,9 +241,11 @@ ind.coord <- ind.coord %>%
         "Obvious Go Rate" = "Dim.1",
         "Avg Croot Class Points" = "Dim.2",
         "One-Score Win Pct" = "Dim.3",
-        "1st Down Pass Rate" = "Dim.4"
+        "1st Down Pass Rate" = "Dim.4",
+        "DVOE" = "Dim.5"
     )
 
+# Create plot
 ggscatter(
     ind.coord, x = "Obvious Go Rate", y = "Avg Croot Class Points",
     color = "cluster", palette = "npg", ellipse = TRUE, ellipse.type = "convex",
