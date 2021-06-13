@@ -202,14 +202,23 @@ write.csv(composite_coach_data, "./data/coaching_summary.csv")
 # - https://uc-r.github.io/kmeans_clustering#elbow
 # - https://www.datanovia.com/en/blog/k-means-clustering-visualization-in-r-step-by-step-guide/
 set.seed(1990)
-coach_clusters <- scale(composite_coach_data %>% select(-coach))
+coach_clusters <- scale(
+    composite_coach_data %>%
+        select(
+            obvious_go_pct,
+            avg_croot_points,
+            one_score_game_win_pct,
+            early_down_pass_rate,
+            DVOE
+        )
+    )
 
 # Silhouette method of identifying K
-# fviz_nbclust(coach_clusters, kmeans, method = "silhouette")
+fviz_nbclust(coach_clusters, kmeans, method = "silhouette")
 #
 # Gap Statistic method of identifying K
-# gap_stat <- clusGap(coach_clusters, FUN = kmeans, nstart = 25, K.max = 10, B = 50)
-# fviz_gap_stat(gap_stat)
+gap_stat <- clusGap(coach_clusters, FUN = kmeans, nstart = 25, K.max = 10, B = 50)
+fviz_gap_stat(gap_stat)
 
 # Elbow method to identify K
 fviz_nbclust(coach_clusters, kmeans, method = "wss")
@@ -219,10 +228,7 @@ fviz_nbclust(coach_clusters, kmeans, method = "wss")
 # Silhouette = 10
 # gap stat = 1
 
-# Percentage of variance explained by dimensions
-# eigenvalue <- round(get_eigenvalue(res.pca), 1)
-# variance.percent <- eigenvalue$variance.percent
-# head(eigenvalue)
+
 
 # Actually do clusters
 res.km <- kmeans(coach_clusters, 4, nstart = 25)
@@ -231,6 +237,12 @@ print(res.km)
 res.km$cluster
 # # Dimension reduction using PCA
 res.pca <- prcomp(coach_clusters,  scale = TRUE)
+
+# Percentage of variance explained by dimensions
+eigenvalue <- round(get_eigenvalue(res.pca), 1)
+variance.percent <- eigenvalue$variance.percent
+head(eigenvalue)
+
 # Coordinates of individuals
 ind.coord <- as.data.frame(get_pca_ind(res.pca)$coord)
 # Add clusters obtained using the K-means algorithm
@@ -257,14 +269,7 @@ pca_chart <- organized_pca %>%
     mutate(components = reorder_within(component, abs(value), cluster)) %>%
     ggplot(aes(abs(value), components, fill = value > 0)) +
     geom_col() +
-    facet_wrap(~cluster, scales = "free_y", labeller = as_labeller(
-        c(
-            `1` = "Guys Bein' Dudes",
-            `2` = "Nick Saban & Friends",
-            `3` = "The Mark Richt Zone",
-            `4` = "Manny Diaz Underachieving Co."
-        )
-    )) +
+    facet_wrap(~cluster, scales = "free_y") +
     scale_y_reordered() +
     labs(
         x = "Absolute value of contribution",
@@ -280,10 +285,10 @@ pca_chart
 
 ind.coord <- ind.coord %>%
     rename(
-        "Obvious Go Rate" = "Dim.1",
-        "Avg Croot Class Points" = "Dim.2",
-        "One-Score Win Pct" = "Dim.3",
-        "Early Down Pass Rate" = "Dim.4",
+        "obvious_go_pct" = "Dim.1",
+        "avg_croot_points" = "Dim.2",
+        "one_score_game_win_pct" = "Dim.3",
+        "early_down_pass_rate" = "Dim.4",
         "DVOE" = "Dim.5"
     )
 ind.coord$coach <- composite_coach_data$coach
@@ -295,19 +300,27 @@ ind.coord <- ind.coord %>%
     mutate(
         cluster = as.factor(cluster),
         cluster_title = case_when(
-            cluster == 4 ~ "Manny Diaz Underachieving Co.",
-            cluster == 1 ~ "Guys Bein' Dudes",
-            cluster == 3 ~ "The Mark Richt Zone",
-            cluster == 2 ~ "Nick Saban & Friends",
+            cluster == 1 ~ "Manny Diaz Underachieving Co.",
+            cluster == 2 ~ "Guys Bein' Dudes",
+            cluster == 4 ~ "The Mark Richt Zone",
+            cluster == 3 ~ "Nick Saban & Friends",
         ),
         cluster_title = as.factor(cluster_title)
     )
 
 # Create plot
 coach_chart <- ggscatter(
-    ind.coord, x = "Obvious Go Rate", y = "Avg Croot Class Points",
-    color = "cluster_title", shape = "cluster_title", palette = "npg", ellipse = TRUE, ellipse.type = "convex",
-    size = 1.5,  legend = "right", ggtheme = theme_fivethirtyeight(),
+    ind.coord,
+    x = "obvious_go_pct",
+    y = "avg_croot_points",
+    color = "cluster_title",
+    shape = "cluster_title",
+    palette = "npg",
+    ellipse = TRUE,
+    ellipse.type = "convex",
+    size = 1.5,
+    legend = "right",
+    ggtheme = theme_fivethirtyeight(),
     xlab = paste0("Obvious Go Rate (scaled)"),
     ylab = paste0("Avg Recruiting Class Strength (scaled)")
 ) +
