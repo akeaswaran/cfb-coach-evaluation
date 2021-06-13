@@ -257,17 +257,18 @@ pca_chart <- organized_pca %>%
     mutate(components = reorder_within(component, abs(value), cluster)) %>%
     ggplot(aes(abs(value), components, fill = value > 0)) +
     geom_col() +
-    facet_wrap(~cluster, scales = "free_y") +
+    facet_wrap(~cluster, scales = "free_y", labeller = as_labeller(
+        c(
+            `1` = "Guys Bein' Dudes",
+            `2` = "Nick Saban & Friends",
+            `3` = "The Mark Richt Zone",
+            `4` = "Manny Diaz Underachieving Co."
+        )
+    )) +
     scale_y_reordered() +
     labs(
         x = "Absolute value of contribution",
-        y = NULL, fill = "Positive?",
-        title = case_when(
-            cluster == 4 ~ "Manny Diaz Underachieving Co.",
-            cluster == 1 ~ "Guys Bein' Dudes",
-            cluster == 3 ~ "The Mark Richt Zone",
-            cluster == 2 ~ "Nick Saban & Friends",
-        )
+        y = NULL, fill = "Positive?"
     )
 ggsave(pca_chart, filename = "./data/pca_chart.png",
        dpi = 300,
