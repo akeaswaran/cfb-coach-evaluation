@@ -208,8 +208,8 @@ coach_clusters <- scale(composite_coach_data %>% select(-coach))
 # fviz_nbclust(coach_clusters, kmeans, method = "silhouette")
 #
 # Gap Statistic method of identifying K
-gap_stat <- clusGap(coach_clusters, FUN = kmeans, nstart = 25, K.max = 10, B = 50)
-fviz_gap_stat(gap_stat)
+# gap_stat <- clusGap(coach_clusters, FUN = kmeans, nstart = 25, K.max = 10, B = 50)
+# fviz_gap_stat(gap_stat)
 
 # Elbow method to identify K
 fviz_nbclust(coach_clusters, kmeans, method = "wss")
@@ -228,7 +228,6 @@ res.pca <- prcomp(coach_clusters,  scale = TRUE)
 ind.coord <- as.data.frame(get_pca_ind(res.pca)$coord)
 # Add clusters obtained using the K-means algorithm
 ind.coord$cluster <- factor(res.km$cluster)
-
 
 ind.coord <- ind.coord %>%
     rename(
