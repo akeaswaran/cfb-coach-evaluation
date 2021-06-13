@@ -251,3 +251,60 @@ ggscatter(
         title = "Coach Evaluation Clusters",
         subtitle = "Evaluating coaches on various metrics"
     )
+
+
+# Optimizing Axes selection Programmatically
+# Prompt: for each pair of dimensions X and Y possible, find the center of each cluster in that cross section then calc the median. Then select the X, Y pair with the highest median value
+#
+# 1. Find all pairs of dimensions
+# 2. create list of median centers
+# 3. For each pair of dimensions:
+#   - for each cluster:
+#       - create tmp list
+#       - grab center point from res.km$centers using dimensions and cluster index
+#       - store center point into tmp list
+#       - find median point of tmp list
+#       - store median point into median centers list
+# 4. Find max of median centers list
+
+
+# find all pairs of dimensions
+dim_combos <- combn(colnames(res.km$centers), 2)
+centers <- res.km$centers
+mdn_centers <- data.frame()
+colnames(mdn_centers) <- c("cluster","x_dim", "y_dim", "x_mdn_val", "y_mdn_val")
+
+for (cluster in 1:4) {
+    print(paste0("Cluster ", cluster))
+    x_values = c()
+    y_values = c()
+    for (c in 1:cols) {
+        dim_1 = dim_combos[1, c]
+        dim_2 = dim_combos[2, c]
+
+        x = centers[cluster, dim_1]
+        print(paste0("Dim 1 (", dim_1, "): ", x))
+        x_values = c(x_values, x)
+
+        y = centers[cluster, dim_2]
+        print(paste0("Dim 2 (", dim_2, "): ", y))
+        y_values = c(y_values, y)
+    }
+
+    x_mdn = median(x_values)
+    y_mdn = median(y_values)
+    print(paste0("Cluster ", cluster, " Median calculation: (", x_mdn, ", ", y_mdn,")"))
+
+    x_mdn_col_idx = match(x_mdn, x_values)
+    y_mdn_col_idx = match(y_mdn, y_values)
+    print(paste0("Cluster ", cluster, " Median Indices: (", x_mdn_col_idx, ", ", y_mdn_col_idx,")"))
+
+    x_mdn_col = dim_combos[1, x_mdn_col_idx]
+    y_mdn_col = dim_combos[2, y_mdn_col_idx]
+    print(paste0("Cluster ", cluster, " Median Dimensions: (", x_mdn_col, ", ", y_mdn_col,")"))
+
+    tmp = data.frame(cluster, x_mdn_col, y_mdn_col, x_mdn, y_mdn)
+    names(tmp) = c("cluster","x_dim", "y_dim", "x_mdn_val", "y_mdn_val")
+    mdn_centers <- rbind(mdn_centers, tmp)
+}
+
