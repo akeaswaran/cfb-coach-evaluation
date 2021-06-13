@@ -49,9 +49,9 @@ full_pbp <- full_pbp %>%
     )
 
 # first down passing
-first_down_passing <- full_pbp %>%
+early_down_passing <- full_pbp %>%
     filter(
-        down == 1
+        down %in% 1:2
     ) %>%
     group_by(pos_team_coach) %>%
     count(pass) %>%
@@ -169,13 +169,13 @@ dvoe_data <- dvoe_data %>%
 # Big Coach Summary Dataset
 composite_coach_data <- left_join(recruiting_summary, fd_decisions, by=c("coach" = "pos_team_coach"))
 composite_coach_data <- left_join(composite_coach_data, close_game_win_prob, by=c("coach" = "pos_team_coach"))
-composite_coach_data <- left_join(composite_coach_data, first_down_passing, by=c("coach" = "pos_team_coach"))
+composite_coach_data <- left_join(composite_coach_data, early_down_passing, by=c("coach" = "pos_team_coach"))
 composite_coach_data <- composite_coach_data %>%
     rename(
         "avg_croot_points" = average_class_score,
         "obvious_go_pct" = pct.x,
         "one_score_game_win_pct" = pct.y,
-        "first_down_pass_rate" = pct
+        "early_down_pass_rate" = pct
     )
 
 
@@ -188,7 +188,7 @@ composite_coach_data <- composite_coach_data %>%
         obvious_go_pct,
         avg_croot_points,
         one_score_game_win_pct,
-        first_down_pass_rate
+        early_down_pass_rate
     )
 
 composite_coach_data <- left_join(composite_coach_data, dvoe_data, by=c("coach" = "Coach"))
@@ -283,7 +283,7 @@ ind.coord <- ind.coord %>%
         "Obvious Go Rate" = "Dim.1",
         "Avg Croot Class Points" = "Dim.2",
         "One-Score Win Pct" = "Dim.3",
-        "1st Down Pass Rate" = "Dim.4",
+        "Early Down Pass Rate" = "Dim.4",
         "DVOE" = "Dim.5"
     )
 ind.coord$coach <- composite_coach_data$coach
@@ -311,7 +311,6 @@ coach_chart <- ggscatter(
     xlab = paste0("Obvious Go Rate (scaled)"),
     ylab = paste0("Avg Recruiting Class Strength (scaled)")
 ) +
-    stat_mean(aes(color = cluster_title, shape = cluster_title), size = 4) +
     theme(axis.title = element_text()) +
     theme(
         legend.position = "bottom",
