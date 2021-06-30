@@ -253,7 +253,7 @@ ind.coord$cluster <- factor(res.km$cluster)
 organized_pca <- data.frame(res.km$centers)
 organized_pca <- cbind(cluster = rownames(organized_pca), organized_pca)
 rownames(organized_pca) <- 1:nrow(organized_pca)
-organized_pca <- melt(organized_pca) %>%
+organized_pca <- reshape2::melt(organized_pca) %>%
     rename(
         component = variable
     ) %>%
@@ -266,11 +266,11 @@ organized_pca <- melt(organized_pca) %>%
 
 # PCA Chart
 pca_chart <- organized_pca %>%
-    mutate(components = reorder_within(component, abs(value), cluster)) %>%
+    mutate(components = tidytext::reorder_within(component, abs(value), cluster)) %>%
     ggplot(aes(abs(value), components, fill = value > 0)) +
     geom_col() +
     facet_wrap(~cluster, scales = "free_y") +
-    scale_y_reordered() +
+    tidytext::scale_y_reordered() +
     labs(
         x = "Absolute value of contribution",
         y = NULL, fill = "Positive?"
@@ -300,10 +300,10 @@ ind.coord <- ind.coord %>%
     mutate(
         cluster = as.factor(cluster),
         cluster_title = case_when(
-            cluster == 1 ~ "Manny Diaz Underachieving Co.",
-            cluster == 2 ~ "Guys Bein' Dudes",
-            cluster == 4 ~ "The Mark Richt Zone",
-            cluster == 3 ~ "Nick Saban & Friends",
+            cluster == 1 ~ "G5 Mains",
+            cluster == 2 ~ "P5 Lifers",
+            cluster == 3 ~ "Weird Offense Friends",
+            cluster == 4 ~ "Consistently Good",
         ),
         cluster_title = as.factor(cluster_title)
     )
